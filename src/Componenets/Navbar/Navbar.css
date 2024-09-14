@@ -1,0 +1,116 @@
+.navbar {
+    background-color: #000000; /* Black background */
+    padding: 0 200px; /* Add 200px margin to the left and right */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    height: 100px;
+    position: relative; /* Ensure the position for mobile menu */
+}
+
+.logo h1 {
+    font-size: 50px;
+    color: #ffffff; /* White text color */
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: #ffffff; /* White text color */
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.navbar ul li a:hover {
+    color: saddlebrown; /* Change color on hover */
+}
+
+/* Mobile Menu Styles */
+.navbar .menu-toggle {
+    display: none; /* Hide menu toggle by default */
+    cursor: pointer;
+}
+
+.navbar .menu-toggle span {
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: #ffffff; /* White lines for the toggle */
+    margin: 6px 0;
+    transition: all 0.3s;
+}
+
+/* Mobile Menu Styles */
+.navbar .mobile-menu {
+    display: none; /* Hide mobile menu by default */
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    background-color: #000000; /* Black background */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.navbar .mobile-menu ul {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar .mobile-menu ul li {
+    margin: 15px 0;
+    text-align: center;
+}
+
+.navbar .mobile-menu ul li a {
+    color: #ffffff; /* White text color */
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Media queries */
+@media (max-width: 768px) {
+    .navbar {
+        margin: 0;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar ul {
+        display: none; /* Hide default menu on mobile */
+        width: 100%;
+    }
+
+    .navbar .menu-toggle {
+        display: block; /* Show menu toggle on mobile */
+    }
+
+    .navbar .menu-toggle.active span:nth-child(1) {
+        transform: rotate(-45deg) translate(-5px, 6px);
+    }
+
+    .navbar .menu-toggle.active span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .navbar .menu-toggle.active span:nth-child(3) {
+        transform: rotate(45deg) translate(-5px, -6px);
+    }
+
+    .navbar .mobile-menu.active {
+        display: block; /* Show mobile menu when active */
+    }
+}
