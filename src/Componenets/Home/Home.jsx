@@ -16,6 +16,7 @@ const Home = () => {
             </header>
             <section className="home-projects">
                 <div className="project-cards">
+
                     <div className="project-card">
                         <div className='image'>
                         <img src={sagefront} alt='Project 1' />
@@ -54,6 +55,7 @@ const Home = () => {
 
                     <div className="project-card">
                     <div className='image' style={{ height: '290px', backgroundColor: 'white', borderRadius: '8px', overflow: 'hidden', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+                    
     <img src={nicotrol} alt='Project 1' style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '8px' }} />
 </div>
 

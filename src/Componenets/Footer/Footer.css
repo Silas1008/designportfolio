@@ -1,19 +1,19 @@
 .footer-wrapper {
-    background-color: #000; /* Same background color as the footer */
-    padding: 0; /* No padding needed */
+    background-color: #000; 
+    padding: 0; 
     margin: 0;
 }
 
 .footer {
     background-color: #000;
     color: #9f4771;
-    padding: 100px 20px; /* Adjust padding for mobile */
+    padding: 100px 20px; 
     text-align: center;
-    font-size: 50px; /* Font size in pixels */
+    font-size: 50px; 
     position: relative;
-    width: 100%; /* Use 100% width to fit container */
-    box-sizing: border-box; /* Ensure padding is included in width */
-    height: 500px; /* Increased height of the footer */
+    width: 100%; 
+    box-sizing: border-box;
+    height: 500px; 
 }
 
 .email {
@@ -22,32 +22,31 @@
 
 .email h6 {
     margin: 0;
-    font-size: 1.2rem; /* Adjust font size for better readability */
+    font-size: 1.2rem; 
 }
 
 .email h1 {
-    margin: 10px 0 0; /* Add margin to separate h1 from h6 */
-    font-size: 100px; /* Adjust font size for better readability */
+    margin: 10px 0 0; 
+    font-size: 100px; 
 }
 
 .email a {
-    color: #9f4771; /* Color of the email link */
-    text-decoration: none; /* Remove underline from link */
+    color: #9f4771;
+    text-decoration: none;
 }
 
 .email a:hover {
-    text-decoration: underline; /* Underline on hover */
+    text-decoration: underline;
 }
 
-/* Media Queries for Mobile Responsiveness */
 @media (max-width: 768px) {
     .footer {
-        padding: 50px 10px; /* Adjust padding for smaller screens */
-        font-size: 30px; /* Adjust font size for smaller screens */
-        height: auto; /* Allow height to adjust based on content */
+        padding: 50px 10px;
+        font-size: 30px;
+        height: auto;
     }
 
     .email h1 {
-        font-size: 50px; /* Adjust font size for smaller screens */
+        font-size: 50px;
     }
 }

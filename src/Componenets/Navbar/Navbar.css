@@ -1,17 +1,17 @@
 .navbar {
-    background-color: #000000; /* Black background */
-    padding: 0 200px; /* Add 200px margin to the left and right */
+    background-color: #000000;
+    padding: 0 200px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     color: white;
     height: 100px;
-    position: relative; /* Ensure the position for mobile menu */
+    position: relative;
 }
 
 .logo h1 {
     font-size: 50px;
-    color: #ffffff; /* White text color */
+    color: #ffffff;
 }
 
 .navbar ul {
@@ -26,7 +26,7 @@
 }
 
 .navbar ul li a {
-    color: #ffffff; /* White text color */
+    color: #ffffff;
     text-decoration: none;
     font-size: 20px;
     font-weight: bold;
@@ -34,12 +34,11 @@
 }
 
 .navbar ul li a:hover {
-    color: saddlebrown; /* Change color on hover */
+    color: saddlebrown;
 }
 
-/* Mobile Menu Styles */
 .navbar .menu-toggle {
-    display: none; /* Hide menu toggle by default */
+    display: none;
     cursor: pointer;
 }
 
@@ -47,19 +46,18 @@
     display: block;
     width: 30px;
     height: 3px;
-    background-color: #ffffff; /* White lines for the toggle */
+    background-color: #ffffff;
     margin: 6px 0;
     transition: all 0.3s;
 }
 
-/* Mobile Menu Styles */
 .navbar .mobile-menu {
-    display: none; /* Hide mobile menu by default */
+    display: none;
     position: absolute;
     top: 100px;
     left: 0;
     width: 100%;
-    background-color: #000000; /* Black background */
+    background-color: #000000;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
@@ -76,12 +74,11 @@
 }
 
 .navbar .mobile-menu ul li a {
-    color: #ffffff; /* White text color */
+    color: #ffffff;
     font-size: 18px;
     font-weight: bold;
 }
 
-/* Media queries */
 @media (max-width: 768px) {
     .navbar {
         margin: 0;
@@ -90,12 +87,12 @@
     }
 
     .navbar ul {
-        display: none; /* Hide default menu on mobile */
+        display: none;
         width: 100%;
     }
 
     .navbar .menu-toggle {
-        display: block; /* Show menu toggle on mobile */
+        display: block;
     }
 
     .navbar .menu-toggle.active span:nth-child(1) {
@@ -111,6 +108,6 @@
     }
 
     .navbar .mobile-menu.active {
-        display: block; /* Show mobile menu when active */
+        display: block;
     }
 }
