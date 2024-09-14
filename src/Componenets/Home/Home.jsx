@@ -53,13 +53,14 @@ const Home = () => {
                     </div>
 
                     <div className="project-card">
-                        <div className='image'>
-                        <img src={nicotrol} alt='Project 1' />
-                        </div>
+                    <div className='image' style={{ height: '290px', backgroundColor: 'white', borderRadius: '8px', overflow: 'hidden', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+    <img src={nicotrol} alt='Project 1' style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '8px' }} />
+</div>
+
                        <div className='intro'>
                        <h1>Nicotrol</h1>
                        <h3> Internship</h3>
-                       <p>Redesigning the Nicotrol Website: A Case Study Focused on Enhancing User Experience of the guide </p>
+                       <p>Redesigning the Nicotrol Website: A Case Study Focused on Enhancing User Experience of the guide  </p>
                        <button className="btn">View Case Study</button>
                        </div>
                     </div>
