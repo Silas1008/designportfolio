@@ -1,113 +1,55 @@
 .navbar {
-    background-color: #000000;
-    padding: 0 200px;
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    color: white;
-    height: 100px;
-    position: relative;
+    align-items: center;
+    padding: 10px 40px; /* Added padding for left and right */
+    background-color: #000000;
+    color: #ffffff;
 }
 
 .logo h1 {
-    font-size: 50px;
-    color: #ffffff;
-}
-
-.navbar ul {
-    list-style: none;
-    display: flex;
-    margin: 0;
-    padding: 0;
-}
-
-.navbar ul li {
-    margin: 0 15px;
-}
-
-.navbar ul li a {
-    color: #ffffff;
+    font-size: 2.5rem; /* Increased font size for AR */
+    color: white;
     text-decoration: none;
-    font-size: 20px;
-    font-weight: bold;
-    transition: color 0.3s;
 }
 
-.navbar ul li a:hover {
-    color: saddlebrown;
-}
-
-.navbar .menu-toggle {
-    display: none;
-    cursor: pointer;
-}
-
-.navbar .menu-toggle span {
-    display: block;
-    width: 30px;
-    height: 3px;
-    background-color: #ffffff;
-    margin: 6px 0;
-    transition: all 0.3s;
-}
-
-.navbar .mobile-menu {
-    display: none;
-    position: absolute;
-    top: 100px;
-    left: 0;
-    width: 100%;
-    background-color: #000000;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-}
-
-.navbar .mobile-menu ul {
+.nav-links {
     display: flex;
-    flex-direction: column;
+    gap: 20px;
+    list-style: none;
     margin: 0;
     padding: 0;
 }
 
-.navbar .mobile-menu ul li {
-    margin: 15px 0;
-    text-align: center;
+.nav-links li {
+    font-size: 1.2rem;
 }
 
-.navbar .mobile-menu ul li a {
+.nav-links a {
+    text-decoration: none;
     color: #ffffff;
-    font-size: 18px;
-    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #ff6347;
 }
 
 @media (max-width: 768px) {
     .navbar {
-        margin: 0;
-        flex-direction: column;
-        align-items: flex-start;
+        padding: 10px 20px; /* Added padding for mobile */
     }
 
-    .navbar ul {
-        display: none;
-        width: 100%;
+    .nav-links {
+        flex-direction: row;
+        gap: 10px;
     }
 
-    .navbar .menu-toggle {
-        display: block;
+    .logo h1 {
+        font-size: 1.8rem; /* Adjusted for mobile */
     }
 
-    .navbar .menu-toggle.active span:nth-child(1) {
-        transform: rotate(-45deg) translate(-5px, 6px);
-    }
-
-    .navbar .menu-toggle.active span:nth-child(2) {
-        opacity: 0;
-    }
-
-    .navbar .menu-toggle.active span:nth-child(3) {
-        transform: rotate(45deg) translate(-5px, -6px);
-    }
-
-    .navbar .mobile-menu.active {
-        display: block;
+    .nav-links li {
+        font-size: 1rem;
     }
 }

@@ -1,0 +1,121 @@
+p{
+    font-size: 18px;
+}
+li{
+    font-weight: bold;
+    font-size: 18px;
+}
+h4{
+    color: gray;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 20px;
+}
+.calcmenu{
+    margin: 0 250px;
+}
+
+.calctitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.calcbanner{
+    display: column;
+    justify-content: center;
+}
+
+.calcbanner ul{
+    display: flex;
+    justify-content:space-around;
+    padding: 30px;
+    align-items: center;
+    border-top: 2px solid lightgray;
+    border-bottom: 2px solid lightgray;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.about{
+    margin: 0 100px;
+    margin-top: 50px;
+}
+.target{
+    justify-content: center;
+}
+.target h2{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.calcsteps{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+.calcsteps img{
+    width: 350px;
+}
+.designsolutions{
+    padding-top: 100px;
+}
+.importanceof li{
+    font-weight: 400;
+}
+.giffy img{
+    width: 1000px;
+}
+.explaination{
+    padding-top: 100px;
+}
+.explaination img{
+    width: 350px;
+    padding: 10px 10px 10px 10px;
+    background-color: aquamarine;
+}
+.middle{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.middle{
+    background-color: bisque;
+    padding: 10px 40px 10px 50px;
+}
+
+.explaination h2{
+    text-align: center;
+}
+.challenges{
+    padding-top: 50px;
+}
+.mobilescreens{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+
+}
+.mobilechallenges{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.mobilechallenges h2{
+    text-align: center;
+}
+.mobilechallenges h4{
+    color: black;
+}
+.up{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-bottom: 30px;
+}
+.down{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.mobilechallenges .container{
+    border-radius: 10px;
+  padding: 10px 10px 10px 10px;
+}
+

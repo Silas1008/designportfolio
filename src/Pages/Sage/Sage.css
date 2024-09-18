@@ -1,0 +1,200 @@
+p{
+    font-size: 18px;
+}
+li{
+    font-weight: bold;
+    font-size: 18px;
+}
+h4{
+    color: gray;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 20px;
+}
+.sage{
+    margin: 0 200px 0 200px;
+}
+
+.sagetitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sageheader{
+    margin-bottom: 50px;
+}
+.sagebanner{
+    display: column;
+    justify-content: center;
+    margin-left: 60px;
+}
+.sagebanner ul{
+    display: flex;
+    justify-content:space-around;
+    padding: 30px;
+    align-items: center;
+    border-top: 2px solid lightgray;
+    border-bottom: 2px solid lightgray;
+    margin-top: 50px;
+}
+
+.about{
+    margin: 0 100px;
+    margin-top: 50px;
+}
+.problem{
+    margin: 0 100px;
+   margin-top: 50px; 
+   justify-content: center;
+}
+
+.mobileapp{
+    margin-top: 50px;
+    text-align: center;
+}
+.problemsolution{
+    margin: 0 50px;
+    border-bottom: 2px solid lightgray;
+}
+.statement1{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 50px;
+}
+.first{
+    padding: 0 50px;
+}
+.statement2{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 50px;
+    padding-left: 80px;
+}
+.second{
+    padding-top: 80px;
+}
+.statement3{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 50px;
+    padding-bottom: 30px;
+}
+.third{
+    padding-top: 100px;
+}
+.problemhead{
+    text-align: center;
+}
+
+.research{
+    margin: 0 100px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid lightgray;
+}
+.research h1{
+    text-align: center;
+}
+.research .italic{
+    text-align: center;
+    font-size: 28px;
+    font-weight: lighter;
+}
+.analysis{
+    margin: 0 100px;
+}
+.analysisimages{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.interview{
+    margin: 0 100px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid lightgray;
+}
+.interview li{
+    font-weight: 400;
+    padding-top: 10px;
+}
+.major h1{
+    text-align: center;
+}
+.insights{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 50px;
+    border-bottom: 2px solid lightgray;
+}
+.focus{
+    border-bottom: 2px solid lightgray;
+}
+.itiration{
+    padding-bottom: 50px;
+    border-bottom: 2px solid lightgray;
+}
+.changes{
+    text-align: center;
+    padding-bottom: 100px;
+    border-bottom: 2px solid lightgray;
+}
+.changes1{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding-top: 50px;
+}
+.changes2{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding-top: 50px;
+}
+.changes3{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding-top: 50px;
+}
+.changesimages{
+    display: flex;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.changes p{
+    text-align: left;
+}
+.changes h3{
+    text-align: left;
+}
+.finaltitle{
+    text-align: center;
+}
+.finalimages{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.finalimages img{
+    width: 250px;
+}
+.finalscreens{
+    padding-bottom: 100px;
+    border-bottom: 2px solid lightgray;
+}
+.lessons{
+    margin: 50px 100px;
+   justify-content: center;
+   padding-bottom: 50px;
+   border-bottom: 2px solid lightgray;
+}
+.end{
+    margin: 50px 100px;
+    text-align: center;
+   justify-content: center;
+   padding-bottom: 50px;
+   font-size: 30px;
+}

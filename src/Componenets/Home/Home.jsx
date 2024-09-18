@@ -5,6 +5,7 @@ import calcfront from './../../Assets/CalcMenu.png';
 import jax from './../../Assets/jax.png';
 import nicotrol from './../../Assets/nicotrol.png';  
 import Animations from '../../Pages/Animations/Animations';
+import { Link } from 'react-router-dom';
 
 
 const Home = () => {
@@ -17,18 +18,19 @@ const Home = () => {
             <section className="home-projects">
                 <div className="project-cards">
 
-                    <div className="project-card">
-                        <div className='image'>
-                        <img src={sagefront} alt='Project 1' />
-                        </div>
-                       <div className='intro'>
-                       <h1>Sage E-commerce</h1>
-                       <h3> UI/ UX / Research / Wireframing</h3>
-                       <p>Revitalizing Heritage: A Digital Renaissance for Traditional Makers of Lebanon - A case study</p>
-                       <button className="btn">View Case Study</button>
-                       </div>
-                    </div>
-
+                <div className="project-card">
+                <div className='image'>
+                    <img src={sagefront} alt='Project 1' />
+                </div>
+                <div className='intro'>
+                    <h1>Sage E-commerce</h1>
+                    <h3>UI/UX / Research / Wireframing</h3>
+                    <p>Revitalizing Heritage: A Digital Renaissance for Traditional Makers of Lebanon - A case study</p>
+                    <Link to="/case-study/sage">
+                        <button className="btn">View Case Study</button>
+                    </Link>
+                </div>
+            </div>
                     <div className="project-card">
                         <div className='image'>
                         <img src={calcfront} alt='Project 1' />
@@ -37,7 +39,9 @@ const Home = () => {
                        <h1>CalcMenu</h1>
                        <h3>  UI/ UX / Research / Wireframing</h3>
                        <p>Improving the first time user experience  tabs in the recipe section for CalcMenu - A Case study</p>
-                       <button className="btn">View Case Study</button>
+                       <Link to="/case-study/calcmenu">
+                        <button className="btn">View Case Study</button>
+                    </Link>
                        </div>
                     </div>
 
