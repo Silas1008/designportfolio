@@ -1,5 +1,4 @@
 import "./Sage.css";
-import backbutton1 from "./../../Assets/backbutton.png";
 import sagebanner from "./../../Assets/sagebanner.png";
 import statement1 from "./../../Assets/statement1image.png";
 import statement2 from "./../../Assets/statement2image.png";
@@ -30,9 +29,6 @@ function Sage() {
     
   return (
     <div className="sage">
-    <div className="backbutton">
-    <img src={backbutton1} alt=""/>
-    </div>
    
       <div className="sagetitle">
         <div className="sageheader">

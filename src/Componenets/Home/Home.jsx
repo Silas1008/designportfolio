@@ -53,7 +53,9 @@ const Home = () => {
                        <h1>Jax online services</h1>
                        <h3> UI/ UX / Research / Wireframing</h3>
                        <p>Jax:Redefining Pet Care Services in India with User-Centric Design - A case study</p>
+                       <Link to="/case-study/jax">
                        <button className="btn">View Case Study</button>
+                       </Link>
                        </div>
                     </div>
 

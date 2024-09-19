@@ -1,5 +1,4 @@
 import "./CalcMenu.css"
-import backbutton1 from "./../../Assets/backbutton.png";
 import calcbanner from "./../../Assets/calcbanner.png";
 import steps from "./../../Assets/calcsteps.png"
 import designproblem from "./../../Assets/designproblem.png"
@@ -10,14 +9,13 @@ import giffy from "./../../Assets/calcrecordings.mp4"
 import left from "./../../Assets/left.png"
 import right from "./../../Assets/right.png"
 import mobilerecordings from "./../../Assets/mobilerecordings.mp4"
+import mobilechallenges from "./../../Assets/mobilechallenges.mp4"
+import lefttake from "./../../Assets/buttons.png"
+import allergens from "./../../Assets/allergens.png";
 
 const CalcMenu = () => {
   return (
     <div className="calcmenu">
-    <div className="backbutton">
-    <img src={backbutton1} alt=""/>
-    </div>
-   
       <div className="calctitle">
         <div className="calcheader">
           <h1>
@@ -170,6 +168,11 @@ const CalcMenu = () => {
     </div>
     </div>
     </div>
+    <div className="mobilescreens">
+    <video width="280" controls>
+    <source src={mobilechallenges} type="video/mp4"/>
+    </video>
+    </div>
     </div>
 
     <div className="mobilechallenges">
@@ -206,7 +209,27 @@ const CalcMenu = () => {
     </div>
     </div>
     </div>
+<div className="takeaways">
+<h2 style={{textAlign: 'center'}}>Key Takeaways</h2>
+      <div className="key">
+      <div className="lefttake">
+      <h3>Functionality Consistency:</h3>
+      <p>Maintaining consistency between desktop and mobile views helps users transition seamlessly between devices and ensures that core functionalities remain intuitive.</p>
+      <img src={lefttake} alt=""/>
+      </div>
+      <div className="righttake">
+      <h3>User-Centric Design: </h3>
+      <p>Positioning buttons in easily accessible locations and ensuring touch-friendly interactions are crucial for a positive mobile user experience.</p>
+      <img src={allergens} alt="" style={{width:'200px'}}/>
+      </div>
+      </div>
+      
+</div>
 
+<div className="conclusions">
+<h2 style={{textAlign:'center'}}>Conclusions</h2>
+<p>The redesign successfully addressed the challenges of optimizing the mobile view for allergen updates. By positioning the update buttons directly under or next to the allergens, we ensured ease of access for users. The touch-friendly design and responsive layout adjustments improved usability across different devices, maintaining a consistent experience with the desktop view. Through comprehensive cross-device usability testing, we confirmed that the redesigned interface is both functional and user-friendly, meeting the needs of a diverse user base and enhancing overall efficiency in managing recipe updates.</p>
+</div>
     </div>
   )
 }
