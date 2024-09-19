@@ -198,3 +198,108 @@ h4{
    padding-bottom: 50px;
    font-size: 30px;
 }
+
+@media only screen and (max-width: 768px) {
+    .sage {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+
+    .sageheader h1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .sagebanner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sagebanner img {
+        width: 100%;
+    }
+
+    .sagebanner ul {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        padding: 0;
+        justify-content: center;
+        align-items: start;
+    }
+
+    .sagebanner ul li {
+        margin-left: 30px;
+    }
+
+    .about {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .problem {
+        width: 100%;
+    }
+
+    .mobileapp {
+        width: 100%;
+    }
+
+    .problemsolution {
+        width: 100%;
+    }
+
+    .analysis {
+        width: 100%;
+    }
+
+    .interview {
+        width: 100%;
+    }
+
+    .interview img {
+        width: 200px;
+    }
+
+    .major {
+        width: 100%;
+    }
+
+    .insights {
+        width: 100%;
+    }
+
+    .focus {
+        width: 100%;
+    }
+
+    .itiration{
+        width: 100%;
+    }
+
+    .changes {
+        width: 100%;
+    }
+
+    .finalscreens {
+        width: 100%;
+    }
+
+    .lessons {
+        width: 100%;
+    }
+
+    .end {
+        width: 100%;
+    }
+}
