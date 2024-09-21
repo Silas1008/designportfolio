@@ -19,8 +19,8 @@ const Nicotrol = () => {
 
       <div className="nicoinfo">
       <ul>
-        <li>Time frame - 3 months</li>
-        <li>Company - Wonita Inc.</li>
+        <li>Time frame - 1 months</li>
+        <li>Company - Fligno.</li>
         <li>My role - UI/UX Designer</li>
       </ul>
     </div>
