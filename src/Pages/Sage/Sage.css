@@ -26,7 +26,7 @@ h4{
 .sagebanner{
     display: column;
     justify-content: center;
-    margin-left: 60px;
+    margin: 0 250px;
 }
 .sagebanner ul{
     display: flex;
@@ -52,8 +52,9 @@ h4{
     margin-top: 50px;
     text-align: center;
 }
+
 .problemsolution{
-    margin: 0 50px;
+    margin: 0 250px;
     border-bottom: 2px solid lightgray;
 }
 .statement1{
@@ -111,9 +112,14 @@ h4{
     margin-top: 30px;
 }
 .interview{
-    margin: 0 100px;
+    display: flex;
+    flex-direction: column;
     padding-bottom: 30px;
     border-bottom: 2px solid lightgray;
+    margin: 0 250px;
+}
+.interview img{
+   margin: 0 50px;
 }
 .interview li{
     font-weight: 400;
@@ -139,6 +145,7 @@ h4{
     text-align: center;
     padding-bottom: 100px;
     border-bottom: 2px solid lightgray;
+    margin: 0 250px;
 }
 .changes1{
     display: flex;
@@ -192,7 +199,7 @@ h4{
    border-bottom: 2px solid lightgray;
 }
 .end{
-    margin: 50px 100px;
+    margin: 100px 100px;
     text-align: center;
    justify-content: center;
    padding-bottom: 50px;

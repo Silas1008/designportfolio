@@ -87,11 +87,11 @@ const CalcMenu = () => {
     </div>
     <div className="approvable">
     <h2>Solution 2 Adding action buttons</h2>
-    <p style={{textAlign: "center"}}>Buttons grayed out indicating the users have approved of the changes thay have made this is a reversable action</p>
+    <p>Buttons grayed out indicating the users have approved of the changes thay have made this is a reversable action</p>
     <img src={slide} alt="" style={{width: '1000px', padding:'50px 50px 50px 50px', backgroundColor: '#F3EFD5'}}/>
     </div>
 
-    <div className="importanceof" style={{paddingTop: '60px'}}>
+    <div className="importanceof">
     <h2>Importance of the allergens section</h2>
     <ul>
     <li>Allergens Tab Overview</li>
@@ -230,6 +230,10 @@ const CalcMenu = () => {
 <h2 style={{textAlign:'center'}}>Conclusions</h2>
 <p>The redesign successfully addressed the challenges of optimizing the mobile view for allergen updates. By positioning the update buttons directly under or next to the allergens, we ensured ease of access for users. The touch-friendly design and responsive layout adjustments improved usability across different devices, maintaining a consistent experience with the desktop view. Through comprehensive cross-device usability testing, we confirmed that the redesigned interface is both functional and user-friendly, meeting the needs of a diverse user base and enhancing overall efficiency in managing recipe updates.</p>
 </div>
+
+<div>
+    <h2 style={{textAlign: 'center'}}>Thank you!</h2>
+    </div>
     </div>
   )
 }

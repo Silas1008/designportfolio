@@ -308,6 +308,10 @@ function Sage() {
         </h2>
       </div>
 
+   <div>
+    <h2 style={{textAlign: 'center'}}>Thank you!</h2>
+    </div>
+
     </div>
   );
 }

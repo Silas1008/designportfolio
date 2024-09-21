@@ -69,7 +69,9 @@ const Home = () => {
                        <h1>Nicotrol</h1>
                        <h3> Internship</h3>
                        <p>Redesigning the Nicotrol Website: A Case Study Focused on Enhancing User Experience of the guide  </p>
+                       <Link to="/case-study/nicotrol">
                        <button className="btn">View Case Study</button>
+                       </Link>
                        </div>
                     </div>
                   </div>
