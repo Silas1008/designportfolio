@@ -9,6 +9,8 @@ import CalcMenu from './Pages/CalcMenu/CalcMenu';
 import Jax from "./Pages/Jax/Jax.jsx";
 import About from "./Pages/About/About.jsx";
 import Animations from './Pages/Animations/Animations.jsx';
+import Fordesigners from './Pages/Fordesigners/Fordesigners.jsx';
+import Fordevelopers from './Pages/Fordevelopers/Fordevelopers.jsx';
 
 
 function App() {
@@ -24,6 +26,8 @@ function App() {
                     <Route path="/case-study/nicotrol" element={<Nicotrol />} />
                     <Route path="/case-study/calcmenu" element={<CalcMenu />} />
                     <Route path="/case-study/jax" element={<Jax />} />
+                    <Route path="designers" element={<Fordesigners/>}/>
+                    <Route path="developers" element={<Fordevelopers/>}/>
                 </Routes>
                 <Footer /> 
             </div>

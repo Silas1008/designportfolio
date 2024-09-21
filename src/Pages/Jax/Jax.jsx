@@ -13,6 +13,12 @@ import compete from "./../../Assets/compete.png"
 import case1 from "./../../Assets/case1.png";
 import case2 from "./../../Assets/case2.png";
 import case3 from "./../../Assets/case3.png";
+import home from "./../../Assets/home.png";
+import notif from "./../../Assets/notif.png"
+import nonotif from "./../../Assets/NoNotification.mp4"
+import jaxnotif from "./../../Assets/Notifications.mp4";
+import claim from "./../../Assets/claim.mp4"
+import jaxsplashmp from "./../../Assets/jaxsplash.mp4"
 
 const Jax = () => {
   return (
@@ -50,6 +56,26 @@ const Jax = () => {
       <img src={process} alt=""/>
       </div>
       </div>
+
+      <div className="finalscreensintro">
+      <h4> final screens</h4>
+      <h2>Run through the final screen before you decide to read</h2>
+      </div>
+
+      <div className="jaxscreen">
+      <video width="245" controls>
+      <source src={jaxsplashmp} type="video/mp4"/>
+      </video>
+      <video width="250" controls>
+      <source src={jaxnotif} type="video/mp4"/>
+      </video>
+      <video width="250" controls>
+      <source src={nonotif} type="video/mp4"/>
+      </video>
+     <video width="250" controls>
+     <source src={claim} type="video/mp4"/>
+     </video>
+    </div>
 
       <div className="prosol">
       <div className="container">
@@ -185,6 +211,78 @@ const Jax = () => {
       </div>
       </div>
       </div>
+
+      <div className="needs">
+      <h2>Key User needs</h2>
+      <ul>
+      <li>Convenience and flexibility in booking pet care services.</li>
+      <li>Trustworthy and verified service providers.</li>
+      <li>Real-time updates and tracking for peace of mind.</li>
+      <li>Centralized management of pet care needs.</li>
+      </ul>
+      </div>
+
+      <div className="prosol">
+      <div className="container" style={{backgroundColor: '#C4D5C2'}}>
+      <h4>The problem</h4>
+      <h3>Limited Access to Pet-Friendly Places and Services:</h3>
+      <p>Pet owners often face challenges finding pet-friendly cafes, restaurants, or transportation options, especially when traveling or planning outings with their pets. The lack of centralized information makes planning difficult and stressful.</p>
+      </div>
+
+      <div className="container" style={{backgroundColor: '#C4D5C2'}}>
+      <h4>The Solution</h4>
+      <h3>Solution with Jax</h3>
+      <p>Jax provides curated lists of pet-friendly cafes, restaurants, parks, and transport services, all in one place. This feature simplifies the planning process, allowing pet owners to confidently explore pet-friendly options without the guesswork.</p>
+      </div>
+      </div>
+
+      <div className="vet">
+      <img src={home} alt=""/>
+      <img src={notif} alt=""/>
+      </div>
+
+      <div className="takeaways">
+      <h4>Take Aways</h4>
+      <h2 style={{textAlign: 'center'}}>Key Takeaways</h2>
+      <div className="jaxkey">
+      <div className="lefttake">
+      <h3>1. Understanding the Target Audience</h3>
+      <p>Prioritizing convenience, privacy, and trust was essential to meeting the needs of pet owners.
+      </p>
+      <h3>2. Designing for Convenience and Accessibility</h3>
+      <p>The rise of remote work created new challenges for pet care, which Jax addresses with accessible services.
+      </p>
+
+      </div>
+
+      <div className="righttake">
+      <h3>3. Iterative User Testing and Feedback</h3>
+      <p>Integrating multiple pet care solutions (walking, sitting, vet appointments) into one app enhanced user experience.
+      </p>
+
+      <h3>4. Challenges of Designing for a Niche Market</h3>
+      <p>Jax has the potential to evolve based on changing user needs and the growing demand for pet services.
+      </p>
+      </div>
+      </div>
+      </div>
+
+      <div className="jaxconclusions">
+      <h4>Conclusions</h4>
+      <h2>Conclutions</h2>
+      <h3>Jax embodies my vision of making pet care easier for busy pet owners, especially in a remote work world. As the app evolves, the goal is to enhance trust and provide a seamless experience for both pet owners and service providers. Future improvements will focus on adapting to the growing needs of digital pet care.</h3>
+      </div>
+
+      <div className="end">
+      <h2 className="link">
+        Link to Figma file <a href="https://www.figma.com/design/leIFlduKS1giaxogprF3lw/Jax?node-id=0-1&node-type=canvas&t=s0GmnNs5QL0r7n5e-0" target="_blank" rel="noopener noreferrer">link</a>
+      </h2>
+    </div>
+    
+    <div>
+    <h2 style={{textAlign: 'center'}}>Thank you!</h2>
+    </div>
+      
     </div>
   )
 }

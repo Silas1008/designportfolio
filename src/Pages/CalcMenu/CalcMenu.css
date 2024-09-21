@@ -21,7 +21,7 @@ h4{
 }
 .calcbanner{
     display: column;
-    justify-content: center;
+    margin: 0 150px;
 }
 
 .calcbanner ul{
@@ -35,11 +35,12 @@ h4{
     margin-left: 30px;
 }
 .about{
-    margin: 0 100px;
+    margin: 0 250px;
     margin-top: 50px;
 }
 .target{
     justify-content: center;
+    margin: 0 250px;
 }
 .target h2{
     text-align: center;
@@ -53,21 +54,33 @@ h4{
 .calcsteps img{
     width: 350px;
 }
+.designproblem{
+    margin: 0 100px 0 150px;
+}
 .designsolutions{
-    padding-top: 100px;
+    margin: 0 100px 0 150px;
+}
+.solutions{
+    margin: 0 100px 0 150px;
+}
+.approvable{
+    margin: 0 100px 0 150px;
 }
 .importanceof{
-    padding-bottom: 30px;
+    margin: 50px 150px;
     border-bottom: 2px solid lightgray;
 }
 .importanceof li{
     font-weight: 400;
 }
+.understanding{
+    margin: 0 100px 0 150px;
+}
 .giffy img{
     width: 1000px;
 }
 .explaination{
-    padding-top: 100px;
+    margin: 50px 50px; 
 }
 .explaination img{
     width: 350px;
@@ -88,19 +101,18 @@ h4{
     text-align: center;
 }
 .challenges{
-    padding-top: 50px;
-    padding-bottom: 30px;
+    margin: 50px 150px;
     border-bottom: 2px solid lightgray;
 }
 .mobilescreens{
     display: flex;
     justify-content: center;
-    padding-top: 50px;
 }
 .mobilechallenges{
     padding-top: 50px;
     display: flex;
     justify-content: space-between;
+    margin: 50px 150px;
 }
 .mobilechallenges h2{
     text-align: center;
@@ -124,7 +136,7 @@ h4{
   padding: 10px 10px 10px 10px;
 }
 .takeaways{
-    padding: 50px;
+    margin: 50px 150px;
 }
 .key{
     display: flex;
