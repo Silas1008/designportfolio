@@ -180,7 +180,7 @@ h4{
 .finaltitle{
     text-align: center;
 }
-.finalimages{
+.finalimages .imagescontainer{
     display: flex;
     justify-content: center;
     gap: 50px;
@@ -220,6 +220,7 @@ h4{
         justify-content: center;
         align-items: center;
         text-align: center;
+        margin: 20px
     }
 
     .sagebanner {
@@ -230,7 +231,8 @@ h4{
     }
 
     .sagebanner img {
-        width: 100%;
+        width: 300px;
+        margin: 20px;
     }
 
     .sagebanner ul {
@@ -254,6 +256,13 @@ h4{
         margin: 0;
     }
 
+    .about h4 {
+        margin: 20px;
+    }
+    .about p {
+        margin: 20px
+    }
+
     .problem {
         width: 100%;
     }
@@ -266,16 +275,185 @@ h4{
         width: 100%;
     }
 
+    .problemsolution h4 {
+        margin: 20px;
+    }
+
+    .problem {
+        width: 100%;
+    }
+
+    .problem h3 {
+        margin: 20px;
+    }
+
+    .problem p {
+        margin: 20px;
+    }
+
+    .mobileapp {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mobileapp h2 {
+        margin: 20px;
+    }
+
+    .statement1 {
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .statement1 .first {
+        padding: 0px;
+    }
+
+    .statement1 .first ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .statement1image {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .statement2 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .statement2 .second {
+        padding: 0px;
+    }
+
+    .statement2 .second ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .statement2image {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .statement3 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .statement3 .third {
+        padding: 0px;
+    }
+
+    .statement3 .third ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .statement3image {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .research {
+        width: 100%;
+    }
+
+    .research h1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 20px
+    }
+
+    .research p {
+        margin: 20px;
+    }
+
     .analysis {
         width: 100%;
     }
 
+    .analysis h3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 20px
+    }
+
+    .analysis p {
+        margin: 20px;
+    }
+
+    .analysisimages {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Creates two equal-width columns */
+        grid-template-rows: repeat(2, 1fr); /* Creates two equal-height rows */
+        gap: 10px; /* Adds space between the images */
+        justify-items: center; /* Centers images horizontally in their grid cells */
+        align-items: center; /* Centers images vertically in their grid cells */
+      }
+
     .interview {
         width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .interview h4 {
+        margin: 20px
+    }
+
+    .interview h3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 20px
+    }
+
+    .interview p {
+        margin: 20px;
+    }
+
+    .interview ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 20px;
     }
 
     .interview img {
-        width: 200px;
+        width: 350px;
     }
 
     .major {
@@ -284,29 +462,150 @@ h4{
 
     .insights {
         width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .focus {
         width: 100%;
+        padding: 0 !important;
+    }
+
+    .focus p {
+        margin: 20px;
     }
 
     .itiration{
         width: 100%;
     }
 
+    .itiration img {
+        width: 350px;
+    }
+
     .changes {
         width: 100%;
     }
 
+    .changes p {
+        margin: 20px
+    }
+
+    .changes .changes1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+        gap: 0;
+    }
+
+    .changes .changes1 .changesimages {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .changes .changes1 .changes1text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 0 !important;
+    }
+
+    .changes .changes2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+        gap: 0;
+    }
+
+    .changes .changes2 .changesimages {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .changes .changes2 .changes2text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 0 !important;
+    }
+
+    .changes .changes3 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+        gap: 0;
+    }
+
+    .changes .changes3 .changesimages {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .changes .changes3 .changes3text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 0 !important;
+    }
+
     .finalscreens {
         width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
+
+    .finalscreens .finalimages {
+        width: 100%;
+        overflow-x: scroll; /* Horizontal scrolling */
+        scroll-behavior: smooth; /* Optional: smooth scrolling */
+        white-space: nowrap;
+    }
+
+    .finalscreens .finalimages .imagescontainer {
+        width: 1200px;
+    }
+
+    .finalscreens .finalimages .imagescontainer img {
+        width: 250px;
+    }
+
 
     .lessons {
         width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .lessons p {
+        margin: 20px;
     }
 
     .end {
         width: 100%;
+    }
+
+    .end h2 {
+        margin: 20px;
     }
 }

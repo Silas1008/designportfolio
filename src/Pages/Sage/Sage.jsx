@@ -278,10 +278,12 @@ function Sage() {
           <h2 style={{ margin: '30px 0' }}>Final Screens</h2>
         </div>
         <div className="finalimages">
-          <img src={final1} alt="" />
-          <img src={final2} alt="" />
-          <img src={final3} alt="" />
-          <img src={final4} alt="" />
+          <div className="imagescontainer"> 
+            <img src={final1} alt="" />
+            <img src={final2} alt="" />
+            <img src={final3} alt="" />
+            <img src={final4} alt="" />
+          </div>
         </div>
       </div>
 
