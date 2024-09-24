@@ -217,7 +217,7 @@ function Sage() {
       </div>
       </div>
 
-      <div className="focus" style={{ padding: '50px 50px', textAlign: 'center',}}>
+      <div className="focus">
       <h2>What I had to focus on initially</h2>
       <p>In the initial week, I invested considerable time designing the app and website, mirroring existing market standards. However, I now recognize the need to shift focus towards comprehensive company research, delving into the process, and understanding the values that resonate with consumers This strategic pivot aims to prioritize authenticity and user-centricity, ensuring that the design not only aligns with market expectations but also encapsulates the essence of the company's heritage, processes, and the unique value it offers to consumers. This shift in approach aims for a more informed and resonant design strategy.</p>
       </div>

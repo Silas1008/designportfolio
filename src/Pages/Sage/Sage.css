@@ -10,24 +10,21 @@ h4{
     border-bottom: 1px solid lightgray;
     padding-bottom: 20px;
 }
-.sage{
-    margin: 150px 200px;
-}
 
 .sagetitle{
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
-.sageheader{
-    margin-bottom: 50px;
-}
 .sagebanner{
-    display: column;
-    justify-content: center;
-    margin: 0 250px;
+    height: 100vh;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    margin: 50px 150px;
 }
+
 .sagebanner ul{
     display: flex;
     justify-content:space-around;
@@ -43,8 +40,7 @@ h4{
     margin-top: 50px;
 }
 .problem{
-    margin: 0 100px;
-   margin-top: 50px; 
+    margin: 50px 250px;
    justify-content: center;
 }
 
@@ -130,16 +126,21 @@ h4{
 }
 .insights{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     padding-bottom: 50px;
     border-bottom: 2px solid lightgray;
+    margin: 50px 150px;
 }
 .focus{
     border-bottom: 2px solid lightgray;
+    text-align: center;
+    padding: 50px 0;
+    margin: 50px 150px;
 }
 .itiration{
     padding-bottom: 50px;
     border-bottom: 2px solid lightgray;
+    margin: 50px 150px;
 }
 .changes{
     text-align: center;
@@ -191,9 +192,10 @@ h4{
 .finalscreens{
     padding-bottom: 100px;
     border-bottom: 2px solid lightgray;
+    margin: 50px 150px;
 }
 .lessons{
-    margin: 50px 100px;
+    margin: 50px 150px;
    justify-content: center;
    padding-bottom: 50px;
    border-bottom: 2px solid lightgray;

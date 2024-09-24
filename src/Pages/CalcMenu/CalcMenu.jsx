@@ -52,7 +52,6 @@ const CalcMenu = () => {
     </p>
     <li>Nutritionists and Dietitians:</li>
     <p>Verify recipes comply with dietary guidelines and allergen restrictions.</p>
-    <li></li>
     <li>Food Service Managers:</li>
     <p>Oversee menu planning and ensure recipes are accurately labeled with allergen information.
     <li>Restaurant Owners and Operators:</li>

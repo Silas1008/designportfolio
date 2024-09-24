@@ -1,17 +1,17 @@
 p{
     font-size: 18px;
 }
-li{
-    font-weight: bold;
-    font-size: 18px;
-}
+    li{
+        font-weight: 300;
+        font-size: 18px;
+    }
 h4{
     color: gray;
     border-bottom: 1px solid lightgray;
     padding-bottom: 20px;
 }
 .calcmenu{
-    margin: 150px 250px;
+    margin: 50px 150px;
 }
 
 .calctitle{
@@ -21,7 +21,7 @@ h4{
 }
 .calcbanner{
     display: column;
-    margin: 0 150px;
+    margin: 0 100px;
 }
 
 .calcbanner ul{
@@ -40,7 +40,7 @@ h4{
 }
 .target{
     justify-content: center;
-    margin: 0 250px;
+    margin: 50px 100px;
 }
 .target h2{
     text-align: center;
@@ -55,26 +55,26 @@ h4{
     width: 350px;
 }
 .designproblem{
-    margin: 0 100px 0 150px;
+    margin: 50px 100px;
 }
 .designsolutions{
-    margin: 0 100px 0 150px;
+    margin: 50px 100px;
 }
 .solutions{
-    margin: 0 100px 0 150px;
+    margin: 50px 100px;
 }
 .approvable{
-    margin: 0 100px 0 150px;
+    margin: 50px 100px;
 }
 .importanceof{
-    margin: 50px 150px;
+    margin: 50px 100px;
     border-bottom: 2px solid lightgray;
 }
 .importanceof li{
     font-weight: 400;
 }
 .understanding{
-    margin: 0 100px 0 150px;
+    margin: 50px 100px;
 }
 .giffy img{
     width: 1000px;
@@ -112,7 +112,7 @@ h4{
     padding-top: 50px;
     display: flex;
     justify-content: space-between;
-    margin: 50px 150px;
+    margin: 50px 100px;
 }
 .mobilechallenges h2{
     text-align: center;
@@ -136,7 +136,7 @@ h4{
   padding: 10px 10px 10px 10px;
 }
 .takeaways{
-    margin: 50px 150px;
+    margin: 50px 100px;
 }
 .key{
     display: flex;

@@ -1,7 +1,7 @@
 p{
     font-size: 18px;
 }
-li{
+.nicotrolcotrol li{
     font-weight: 300;
     font-size: 18px;
     padding-bottom: 30px;
@@ -13,13 +13,13 @@ h4{
 }
 
 .nicobanner{
-    margin: 250px 250px 0 ;
+    margin: 50px 150px ;
     display: flex;
     flex-direction: column;
     text-align: center;
 }
 .nicoinfo{
-    margin: 0 250px;
+    margin: 50px 150px ;
 }
 .nicoinfo ul{
     display: flex;
@@ -62,8 +62,6 @@ h4{
     justify-content: center;
     gap: 50px;
     align-items: center;
-    height: 100vh; 
-    margin-bottom: 100px;
 }
 
 .nicoimages img {
