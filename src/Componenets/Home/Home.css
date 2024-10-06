@@ -70,7 +70,7 @@
 }
 
 .image img {
-    width: 100%;
+    width: 50%;
     border-radius: 8px;
     display: block;
     margin: 0 auto;
@@ -82,14 +82,15 @@
 }
 
 .project-cards {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
 }
 
 .project-card {
     background: rgb(0, 0, 0);
-    padding: 10px;
+    padding: 40px;
     border-radius: 8px;
     box-shadow: 0 6px 12px rgba(255, 255, 255, 0.2);
     display: flex;

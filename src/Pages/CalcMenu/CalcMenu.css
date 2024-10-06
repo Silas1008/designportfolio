@@ -21,7 +21,11 @@ h4{
 }
 .calcbanner{
     display: column;
+<<<<<<< HEAD
     margin: 0 100px;
+=======
+    margin: 0 150px;
+>>>>>>> 542a5e4eb4db2f99689bfdb4322f88e3b142d512
 }
 
 .calcbanner ul{
@@ -40,7 +44,11 @@ h4{
 }
 .target{
     justify-content: center;
+<<<<<<< HEAD
     margin: 50px 100px;
+=======
+    margin: 0 250px;
+>>>>>>> 542a5e4eb4db2f99689bfdb4322f88e3b142d512
 }
 .target h2{
     text-align: center;
@@ -55,6 +63,7 @@ h4{
     width: 350px;
 }
 .designproblem{
+<<<<<<< HEAD
     margin: 50px 100px;
 }
 .designsolutions{
@@ -68,13 +77,32 @@ h4{
 }
 .importanceof{
     margin: 50px 100px;
+=======
+    margin: 0 100px 0 150px;
+}
+.designsolutions{
+    margin: 0 100px 0 150px;
+}
+.solutions{
+    margin: 0 100px 0 150px;
+}
+.approvable{
+    margin: 0 100px 0 150px;
+}
+.importanceof{
+    margin: 50px 150px;
+>>>>>>> 542a5e4eb4db2f99689bfdb4322f88e3b142d512
     border-bottom: 2px solid lightgray;
 }
 .importanceof li{
     font-weight: 400;
 }
 .understanding{
+<<<<<<< HEAD
     margin: 50px 100px;
+=======
+    margin: 0 100px 0 150px;
+>>>>>>> 542a5e4eb4db2f99689bfdb4322f88e3b142d512
 }
 .giffy img{
     width: 1000px;
@@ -112,7 +140,11 @@ h4{
     padding-top: 50px;
     display: flex;
     justify-content: space-between;
+<<<<<<< HEAD
     margin: 50px 100px;
+=======
+    margin: 50px 150px;
+>>>>>>> 542a5e4eb4db2f99689bfdb4322f88e3b142d512
 }
 .mobilechallenges h2{
     text-align: center;
@@ -136,7 +168,11 @@ h4{
   padding: 10px 10px 10px 10px;
 }
 .takeaways{
+<<<<<<< HEAD
     margin: 50px 100px;
+=======
+    margin: 50px 150px;
+>>>>>>> 542a5e4eb4db2f99689bfdb4322f88e3b142d512
 }
 .key{
     display: flex;

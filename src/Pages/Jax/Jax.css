@@ -14,8 +14,13 @@ h4{
     margin: 50px 150px;
 }
 .jaxbanner{
+<<<<<<< HEAD
     margin: 50px 100px;}
     
+=======
+    margin: 50px 180px;
+}
+>>>>>>> 542a5e4eb4db2f99689bfdb4322f88e3b142d512
 .jax h1{
     text-align: center;
 }

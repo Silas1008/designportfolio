@@ -15,7 +15,7 @@
 .container {
     width: 290px;
     height: 290px;
-    border-radius: 8px;
+    border-radius: 2px;
     box-shadow: 0 4px 8px rgba(173, 216, 230, 0.5);
     overflow: hidden;
     transition: box-shadow 0.3s ease, transform 0.3s ease;

@@ -1,7 +1,11 @@
 p{
     font-size: 18px;
 }
+<<<<<<< HEAD
 .nicotrolcotrol li{
+=======
+li{
+>>>>>>> 542a5e4eb4db2f99689bfdb4322f88e3b142d512
     font-weight: 300;
     font-size: 18px;
     padding-bottom: 30px;
@@ -13,13 +17,21 @@ h4{
 }
 
 .nicobanner{
+<<<<<<< HEAD
     margin: 50px 150px ;
+=======
+    margin: 250px 250px 0 ;
+>>>>>>> 542a5e4eb4db2f99689bfdb4322f88e3b142d512
     display: flex;
     flex-direction: column;
     text-align: center;
 }
 .nicoinfo{
+<<<<<<< HEAD
     margin: 50px 150px ;
+=======
+    margin: 0 250px;
+>>>>>>> 542a5e4eb4db2f99689bfdb4322f88e3b142d512
 }
 .nicoinfo ul{
     display: flex;
@@ -62,6 +74,11 @@ h4{
     justify-content: center;
     gap: 50px;
     align-items: center;
+<<<<<<< HEAD
+=======
+    height: 100vh; 
+    margin-bottom: 100px;
+>>>>>>> 542a5e4eb4db2f99689bfdb4322f88e3b142d512
 }
 
 .nicoimages img {
