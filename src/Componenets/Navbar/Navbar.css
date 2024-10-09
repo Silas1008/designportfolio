@@ -8,11 +8,7 @@
     position: sticky;
     top: 0;
     z-index: 1000;
-<<<<<<< HEAD
     height: 60px;
-=======
-    height: 100px;
->>>>>>> 542a5e4eb4db2f99689bfdb4322f88e3b142d512
 }
 
 .logo h1 {

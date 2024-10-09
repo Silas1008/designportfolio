@@ -1,619 +1,154 @@
-p{
-    font-size: 18px;
+.sagetitle h1{
+    margin: 0 350px;
 }
-li{
-    font-weight: bold;
-    font-size: 18px;
+h3{
+    font-size: 32px;
 }
-h4{
-    color: gray;
-    border-bottom: 1px solid lightgray;
-    padding-bottom: 20px;
-}
-
 .sagetitle{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.sagebanner{
-<<<<<<< HEAD
-    height: 100vh;
-    width: 80vw;
+    margin: 50px 0;
     display: flex;
     flex-direction: column;
-    justify-content: center ;
-    margin: 50px 150px;
-=======
-    display: column;
-    justify-content: center;
-    margin: 0 250px;
->>>>>>> 542a5e4eb4db2f99689bfdb4322f88e3b142d512
-}
-
-.sagebanner ul{
-    display: flex;
-    justify-content:space-around;
-    padding: 30px;
     align-items: center;
+    gap: 50px;
+}
+.sagetitle ul{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    padding: 30px 0;
     border-top: 2px solid lightgray;
-    border-bottom: 2px solid lightgray;
-    margin-top: 50px;
+  border-bottom: 2px solid lightgray;
 }
-
 .about{
-    margin: 0 100px;
-    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 240px;
 }
-.problem{
-    margin: 50px 250px;
-   justify-content: center;
-}
-
 .mobileapp{
-    margin-top: 50px;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .problemsolution{
-    margin: 0 250px;
-    border-bottom: 2px solid lightgray;
-}
-.statement1{
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    gap: 100px;
-    margin-top: 50px;
+    margin: 0 240px;
 }
-.first{
-    padding: 0 50px;
-}
-.statement2{
-    display: flex;
-    justify-content: center;
-    gap: 100px;
-    margin-top: 50px;
-    padding-left: 80px;
-}
-.second{
-    padding-top: 80px;
-}
-.statement3{
-    display: flex;
-    justify-content: center;
-    gap: 100px;
-    margin-top: 50px;
-    padding-bottom: 30px;
-}
-.third{
-    padding-top: 100px;
+.problemsolution li{
+    font-weight: 700;
 }
 .problemhead{
     text-align: center;
 }
-
+.statement1{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.statement2{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.statement3{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    margin-bottom: 50px;
+}
 .research{
-    margin: 0 100px;
-    padding-bottom: 30px;
-    border-bottom: 2px solid lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 240px;
 }
-.research h1{
+.italic{
+    font-size: 30px;
+    font-weight: 200;
     text-align: center;
-}
-.research .italic{
-    text-align: center;
-    font-size: 28px;
-    font-weight: lighter;
 }
 .analysis{
-    margin: 0 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 240px;
 }
 .analysisimages{
     display: flex;
-    justify-content: space-around;
-    margin-top: 30px;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 100px;
 }
 .interview{
     display: flex;
     flex-direction: column;
-    padding-bottom: 30px;
-    border-bottom: 2px solid lightgray;
-    margin: 0 250px;
-}
-.interview img{
-   margin: 0 50px;
+    margin: 100px 240px;  
 }
 .interview li{
-    font-weight: 400;
-    padding-top: 10px;
+    margin: 20px 0;
+}
+.major{
+    margin: 0 250px;
 }
 .major h1{
     text-align: center;
 }
 .insights{
     display: flex;
-    justify-content: center;
-    padding-bottom: 50px;
-    border-bottom: 2px solid lightgray;
-    margin: 50px 150px;
+    margin: 100px 250px;
+   justify-content: center;
 }
-.focus{
-    border-bottom: 2px solid lightgray;
-    text-align: center;
-    padding: 50px 0;
-    margin: 50px 150px;
-}
-.itiration{
-    padding-bottom: 50px;
-    border-bottom: 2px solid lightgray;
-    margin: 50px 150px;
+.insights img{
+    width: 300px;
 }
 .changes{
-    text-align: center;
-    padding-bottom: 100px;
-    border-bottom: 2px solid lightgray;
-    margin: 0 250px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 240px;
 }
 .changes1{
     display: flex;
-    justify-content: center;
-    gap: 100px;
-    padding-top: 50px;
+    align-items: center;
+    gap: 50px;
+    margin: 100px 0;
 }
 .changes2{
     display: flex;
-    justify-content: center;
-    gap: 100px;
-    padding-top: 50px;
+    align-items: center;
+    gap: 50px;
+    margin: 100px 0;
 }
 .changes3{
     display: flex;
-    justify-content: center;
-    gap: 100px;
-    padding-top: 50px;
+    align-items: center;
+    gap: 50px;
+    margin: 100px 0;
 }
-.changesimages{
+.finalsage{
+    margin: 50px 240px;
     display: flex;
+    flex-direction: column;
+}
+.finals{
     display: flex;
     justify-content: center;
     gap: 50px;
+    margin: 10px 240px;
 }
-.changes p{
-    text-align: left;
-}
-.changes h3{
-    text-align: left;
-}
-.finaltitle{
-    text-align: center;
-}
-.finalimages .imagescontainer{
-    display: flex;
-    justify-content: center;
-    gap: 50px;
-}
-.finalimages img{
+.finals img{
     width: 250px;
 }
-.finalscreens{
-    padding-bottom: 100px;
-    border-bottom: 2px solid lightgray;
-    margin: 50px 150px;
-}
-.lessons{
-    margin: 50px 150px;
-   justify-content: center;
-   padding-bottom: 50px;
-   border-bottom: 2px solid lightgray;
-}
 .end{
-    margin: 100px 100px;
-    text-align: center;
-   justify-content: center;
-   padding-bottom: 50px;
-   font-size: 30px;
-}
-
-@media only screen and (max-width: 768px) {
-    .sage {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin: 0;
-    }
-
-    .sageheader h1 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        margin: 20px
-    }
-
-    .sagebanner {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .sagebanner img {
-        width: 300px;
-        margin: 20px;
-    }
-
-    .sagebanner ul {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        margin-top: 20px;
-        padding: 0;
-        justify-content: center;
-        align-items: start;
-    }
-
-    .sagebanner ul li {
-        margin-left: 30px;
-    }
-
-    .about {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        margin: 0;
-    }
-
-    .about h4 {
-        margin: 20px;
-    }
-    .about p {
-        margin: 20px
-    }
-
-    .problem {
-        width: 100%;
-    }
-
-    .mobileapp {
-        width: 100%;
-    }
-
-    .problemsolution {
-        width: 100%;
-    }
-
-    .problemsolution h4 {
-        margin: 20px;
-    }
-
-    .problem {
-        width: 100%;
-    }
-
-    .problem h3 {
-        margin: 20px;
-    }
-
-    .problem p {
-        margin: 20px;
-    }
-
-    .mobileapp {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .mobileapp h2 {
-        margin: 20px;
-    }
-
-    .statement1 {
-        width: 100%;
-        display: flex;
-        flex-direction: column-reverse;
-    }
-
-    .statement1 .first {
-        padding: 0px;
-    }
-
-    .statement1 .first ul {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    .statement1image {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .statement2 {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin: 0;
-        padding: 0;
-    }
-
-    .statement2 .second {
-        padding: 0px;
-    }
-
-    .statement2 .second ul {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    .statement2image {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .statement3 {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin: 0;
-        padding: 0;
-    }
-
-    .statement3 .third {
-        padding: 0px;
-    }
-
-    .statement3 .third ul {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    .statement3image {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .research {
-        width: 100%;
-    }
-
-    .research h1 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        margin: 20px
-    }
-
-    .research p {
-        margin: 20px;
-    }
-
-    .analysis {
-        width: 100%;
-    }
-
-    .analysis h3 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        margin: 20px
-    }
-
-    .analysis p {
-        margin: 20px;
-    }
-
-    .analysisimages {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr); /* Creates two equal-width columns */
-        grid-template-rows: repeat(2, 1fr); /* Creates two equal-height rows */
-        gap: 10px; /* Adds space between the images */
-        justify-items: center; /* Centers images horizontally in their grid cells */
-        align-items: center; /* Centers images vertically in their grid cells */
-      }
-
-    .interview {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .interview h4 {
-        margin: 20px
-    }
-
-    .interview h3 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        margin: 20px
-    }
-
-    .interview p {
-        margin: 20px;
-    }
-
-    .interview ul {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        margin: 20px;
-    }
-
-    .interview img {
-        width: 350px;
-    }
-
-    .major {
-        width: 100%;
-    }
-
-    .insights {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .focus {
-        width: 100%;
-        padding: 0 !important;
-    }
-
-    .focus p {
-        margin: 20px;
-    }
-
-    .itiration{
-        width: 100%;
-    }
-
-    .itiration img {
-        width: 350px;
-    }
-
-    .changes {
-        width: 100%;
-    }
-
-    .changes p {
-        margin: 20px
-    }
-
-    .changes .changes1 {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        margin: 20px;
-        gap: 0;
-    }
-
-    .changes .changes1 .changesimages {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .changes .changes1 .changes1text {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding-top: 0 !important;
-    }
-
-    .changes .changes2 {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        margin: 20px;
-        gap: 0;
-    }
-
-    .changes .changes2 .changesimages {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .changes .changes2 .changes2text {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding-top: 0 !important;
-    }
-
-    .changes .changes3 {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        margin: 20px;
-        gap: 0;
-    }
-
-    .changes .changes3 .changesimages {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .changes .changes3 .changes3text {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding-top: 0 !important;
-    }
-
-    .finalscreens {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .finalscreens .finalimages {
-        width: 100%;
-        overflow-x: scroll; /* Horizontal scrolling */
-        scroll-behavior: smooth; /* Optional: smooth scrolling */
-        white-space: nowrap;
-    }
-
-    .finalscreens .finalimages .imagescontainer {
-        width: 1200px;
-    }
-
-    .finalscreens .finalimages .imagescontainer img {
-        width: 250px;
-    }
-
-
-    .lessons {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .lessons p {
-        margin: 20px;
-    }
-
-    .end {
-        width: 100%;
-    }
-
-    .end h2 {
-        margin: 20px;
-    }
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    margin: 150px 0;
 }

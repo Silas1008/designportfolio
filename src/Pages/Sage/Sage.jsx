@@ -19,33 +19,33 @@ import final1 from "./../../Assets/final1.png";
 import final2 from "./../../Assets/final2.png";
 import final3 from "./../../Assets/final3.png";
 import final4 from "./../../Assets/final4.png";
-import alignment from "./../../Assets/alignment.png"
-import appreciation from "./../../Assets/appreciation.png"
-import community from "./../../Assets/community.png"
+import alignment from "./../../Assets/alignment.png";
+import appreciation from "./../../Assets/appreciation.png";
+import community from "./../../Assets/community.png";
 import full from "./../../Assets/fullintro.mp4";
 
-
 function Sage() {
-
   return (
     <div className="sage">
-
       <div className="sagetitle">
         <div className="sageheader">
           <h1>
-            Revitalizing Heritage: A Digital Renaissance for Traditional Makers of Lebanon - A case study
+            Revitalizing Heritage: A Digital Renaissance for Traditional Makers
+            of Lebanon - A case study
           </h1>
         </div>
-      </div>
 
-      <div className="sagebanner">
-        <img src={sagebanner} alt="Sage banner" />
+        <div className="sagebanner">
+        <img src={sagebanner} alt="Sagebanner" />
         <ul>
           <li>Time frame - 3 months</li>
           <li>Company - Wonita Inc.</li>
           <li>My role - UI/UX Designer</li>
         </ul>
       </div>
+      </div>
+
+      
 
       <div className="about">
         <h4>About Sage</h4>
@@ -59,21 +59,25 @@ function Sage() {
           including UX/UI strategies, product architecture, and overall platform
           functionality.
         </p>
-      </div>
 
-      <div className="problem">
+        <div className="problem">
         <h3>
           Absence from digital platforms and e-commerce, missing out on a vast
           consumer base that increasingly relies on online shopping.
         </h3>
         <p>
           <b>Declining sales</b> and market share due to the lack of digital
-          presence. Limited access to the global market. <b>Difficulty in attracting</b>{" "}
-          a new generation of employees. <b>Inability to keep pace with modern
-            manufacturing technologies</b> and automation used by global
-          competitors.
+          presence. Limited access to the global market.{" "}
+          <b>Difficulty in attracting</b> a new generation of employees.{" "}
+          <b>
+            Inability to keep pace with modern manufacturing technologies
+          </b>{" "}
+          and automation used by global competitors.
         </p>
       </div>
+      </div>
+
+      
 
       <div className="mobileapp">
         <h2>If you’re in a hurry, here you go!</h2>
@@ -84,56 +88,57 @@ function Sage() {
 
       <div className="problemsolution">
         <div className="problemhead">
-          <h4 style={{ textAlign: 'left' }}>Problem</h4>
-          <h2>The importance of this platform</h2>
+          <h4 style={{ textAlign: "left" }}>Problem</h4>
+          <h3>The importance of this platform</h3>
         </div>
+
         <div className="statement1">
           <div className="first">
             <ul>
               <li>Increased Sales and Revenue:</li>
               <p>
-                The implementation of the website and mobile app should lead to a
-                noticeable uptick in sales. The convenience of onlineshopping and
-                the appeal of the brand's heritage can attractboth existing and
-                new customers.
+                The implementation of the website and mobile app should lead to
+                a noticeable uptick in sales. The convenience of online shopping
+                and the appeal of the brand's heritage can attract both existing
+                and new customers.
               </p>
               <li>Global Market Presence:</li>
               <p>
-                The digital platforms should facilitate the expansion of the
-                company market to reach beyond local boundaries. Increasedvisibility
-                on a global scale can open up new opportunities and customer bases.
+                The digital platforms should facilitate the expansion of the
+                company market to reach beyond local boundaries. Increased
+                visibility on a global scale can open up new opportunities and
+                customer bases.
               </p>
-
             </ul>
-
           </div>
 
           <div className="statement1image">
-            <img src={statement1} alt="Statement 1" style={{ width: '250px' }} />
+            <img src={statement1} alt="Statement 1" style={{ width: "250px" }} />
           </div>
         </div>
 
         <div className="statement2">
           <div className="statement2image">
-            <img src={statement2} alt="Statement 2" style={{ width: '250px' }} />
+            <img src={statement2} alt="Statement 2" style={{ width: "250px" }} />
           </div>
           <div className="second">
             <ul>
               <li>Search Functionality:</li>
               <p>
-                Include a robust search feature to help users quickly find specific
-                products.
+                Include a robust search feature to help users quickly find
+                specific products.
               </p>
               <li>Contact and Support:</li>
               <p>
-                Offer easy-to-find contact information and support options,
+                Offer easy-to-find contact information and support options,
                 encouraging customer inquiries and feedback.
               </p>
               <li>Brand Identity:</li>
               <p>
-                Developing a compelling brand story that highlights the company's
-                heritage and commitment to natural ingredients.Crafting a unique
-                selling proposition (USP) that emphasizes authenticity.
+                Developing a compelling brand story that highlights the
+                company's heritage and commitment to natural ingredients.
+                Crafting a unique selling proposition (USP) that emphasizes
+                authenticity.
               </p>
             </ul>
           </div>
@@ -144,198 +149,202 @@ function Sage() {
             <ul>
               <li>Search Functionality:</li>
               <p>
-                Include a robust search feature to help users quickly find specific
-                products.
+                Include a robust search feature to help users quickly find
+                specific products.
               </p>
               <li>Contact and Support:</li>
               <p>
-                Offer easy-to-find contact information and support options,
+                Offer easy-to-find contact information and support options,
                 encouraging customer inquiries and feedback.
               </p>
             </ul>
           </div>
           <div className="statement3image">
-            <img src={statement3} alt="Statement 2" style={{ width: '250px' }} />
+            <img src={statement3} alt="Statement 3" style={{ width: "250px" }} />
           </div>
         </div>
       </div>
 
       <div className="research">
-        <h1>A 30% surge in sales, 40% global recognition boost, 50% brand visibility increase,25% growth in community engagement</h1>
-        <p>During my research, I discovered that companies, including startups, gain recognition by introducing their brands to the market.This not only increases sales but also generates employment opportunities. Additionally, word of mouth plays a crucial role inenhancing brand visibility and success.</p>
+  <h1>
+    A 30% surge in sales, 40% global recognition boost, 50% brand
+    visibility increase, 25% growth in community engagement
+  </h1>
+  <p>
+    During my research, I discovered that companies, including startups,
+    gain recognition by introducing their brands to the market. This not
+    only increases sales but also generates employment opportunities.
+    Additionally, word of mouth plays a crucial role in enhancing brand
+    visibility and success.
+  </p>
+  
+  <img src={iteration} alt="Research Iteration" style={{ width: '400px' }} />
 
-        <p className="italic"><i>"Consumers are more inclined to purchase products when they resonate with a brand's values and authenticity. Trust is builtthrough transparent communication, quality offerings, and alignmentwith personal preferences. A genuine connectionbetween the brand and the consumer fosters loyalty,influencing purchasing decisions positively."</i></p>
-      </div>
+  <p className="italic">
+    <i>
+      "Consumers are more inclined to purchase products when they resonate
+      with a brand's values and authenticity. Trust is built through
+      transparent communication, quality offerings, and alignment with
+      personal preferences. A genuine connection between the brand and the
+      consumer fosters loyalty, influencing purchasing decisions
+      positively."
+    </i>
+  </p>
+</div>
+
 
       <div className="analysis">
-        <h3>The competitions focuses more on quantity than quality</h3>
-        <p>The competition often prioritizes marketing over product quality, lacking the personalized, heritage-driven,and niche-focused charm embedded in a traditional maker's commitment to authenticity, cultural richness,and uncompromisingproduct excellence.</p>
+        <h3>The competition focuses more on quantity than quality</h3>
+        <p>
+          The competition often prioritizes marketing over product quality,
+          lacking the personalized, heritage-driven, and niche-focused charm
+          embedded in a traditional maker's commitment to authenticity, cultural
+          richness, and uncompromising product excellence.
+        </p>
         <div className="analysisimages">
-          <img src={flipkart} alt="" />
-          <img src={myntra} alt="" />
-          <img src={amazon} alt="" />
-          <img src={ajio} alt="" />
+          <img src={flipkart} alt="Flipkart" />
+          <img src={myntra} alt="Myntra" />
+          <img src={amazon} alt="Amazon" />
+          <img src={ajio} alt="Ajio" />
         </div>
       </div>
 
       <div className="interview">
         <h4>Consumer interviews</h4>
-        <h3>Interview success is seen in aligned values, passion for tradition, interest in niche, sustainability awareness, and potential for brand advocacy.</h3>
-        <p><b>Interview questions</b></p>
+        <h3>
+          Interview success is seen in aligned values, passion for tradition,
+          interest in niche, sustainability awareness, and potential for brand
+          advocacy.
+        </h3>
+        <p>
+          <b>Interview questions</b>
+        </p>
         <ul>
-          <li>What attracts you to our traditional processes of the business, and how does it align with your values and preferences?</li>
-          <li>Can you share your understanding of the traditional process and the significance of natural ingredients in beauty products?</li>
-          <li>How do you envision contributing to or engaging with our community events and initiatives?</li>
-          <li>What aspects of sustainability in product manufacturing are important to you, and how does this influence your product choices?</li>
-          <li>In what ways do you appreciate personalized shopping experiences, and how does this influence your decision to choose certain beauty products?</li>
+          <li>
+            What attracts you to our traditional processes of the business, and
+            how does it align with your values and preferences?
+          </li>
+          <li>
+            Can you share your understanding of the traditional process and the
+            significance of natural ingredients in beauty products?
+          </li>
+          <li>
+            How do you envision contributing to or engaging with our community
+            events and initiatives?
+          </li>
+          <li>
+            What aspects of sustainability in product manufacturing are
+            important to you, and how does this influence your product choices?
+          </li>
+          <li>
+            In what ways do you appreciate personalized shopping experiences,
+            and how does this influence your decision to choose certain beauty
+            products?
+          </li>
         </ul>
-        {/* <img src={interviews} alt="" style={{ width: '900px' }} /> */}
-        <img src={interviews} alt="" />
+        <img src={interviews} alt="Consumer Interviews" />
       </div>
 
       <div className="major">
-        <h1>Major insights</h1>
+      <h4>Major insights</h4>
+        <h1>What are the major insights?</h1>
       </div>
-      <div className="insights">
 
-        <div className="alignment" style={{ padding: '0 50px', textAlign: 'center' }}>
-          <img src={alignment} alt="" style={{ width: '250px' }} />
-          <h4>Strong Alignment with Values and beliefs:</h4>
+      <div className="insights">
+        <div className="alignment" style={{ padding: "0 50px", textAlign: "center" }}>
+          <img src={alignment} alt="Consumer Alignment" />
+          <h4>65% valued brand authenticity and transparency.</h4>
           <p>The interviews reveal a consistent alignment between interviewees' values and the brand's ethos. This suggests a successful communication of the brand's unique values and an appeal to individuals who resonate with authenticity, tradition, and sustainability.</p>
         </div>
-
-        <div className="appreciation" style={{ padding: '0 50px', textAlign: 'center' }}>
-          <img src={appreciation} alt="" style={{ width: '250px', justifyContent: 'center' }} />
-          <h4>Appreciation for Personalization and Niche Appeal:</h4>
+        <div className="appreciation" style={{ padding: "0 50px", textAlign: "center" }}>
+          <img src={appreciation} alt="Consumer Appreciation" />
+          <h4>40% identified personalized shopping as a driver for loyalty.</h4>
           <p>The appreciation for personalized shopping experiences and interest in niche products underscore a market preference for unique, customized offerings. This insight suggests a potential competitive advantage in a market dominated by mass-market platforms that may lack this level of personalization and specificity.</p>
         </div>
-
-        <div className="community" style={{ padding: '0 50px', textAlign: 'center' }}>
-          <img src={community} alt="" style={{ width: '250px', justifyContent: 'center' }} />
-          <h4>Community Engagement Potential:</h4>
+        <div className="community" style={{ padding: "0 50px", textAlign: "center" }}>
+          <img src={community} alt="Community" />
+          <h4>70% valued sustainability, influencing purchase choices.</h4>
           <p>Interview responses indicate a potential for robust community engagement. Individuals express an interest in contributing to and participating in community events and initiatives. This insight suggests an opportunity to build a vibrant community around the brand.</p>
         </div>
       </div>
 
-      <div className="focus" style={{ padding: '50px 50px', textAlign: 'center', }}>
-        <h2>What I had to focus on initially</h2>
-        <p>In the initial week, I invested considerable time designing the app and website, mirroring existing market standards. However, I now recognize the need to shift focus towards comprehensive company research, delving into the process, and understanding the values that resonate with consumers This strategic pivot aims to prioritize authenticity and user-centricity, ensuring that the design not only aligns with market expectations but also encapsulates the essence of the company's heritage, processes, and the unique value it offers to consumers. This shift in approach aims for a more informed and resonant design strategy.</p>
-      </div>
-
-<<<<<<< HEAD
-      <div className="community" style={{ padding: '0 50px', textAlign: 'center' }}>
-      <img src={community} alt="" style={{width: '250px', justifyContent: 'center'}}/>
-      <h4>Community Engagement Potential:</h4>
-      <p>Interview responses indicate a potential for robust community engagement. Individuals express an interest in contributing to and participating in community events and initiatives. This insight suggests an opportunity to build a vibrant community around the brand.</p>
-      </div>
-      </div>
-
-      <div className="focus">
-      <h2>What I had to focus on initially</h2>
-      <p>In the initial week, I invested considerable time designing the app and website, mirroring existing market standards. However, I now recognize the need to shift focus towards comprehensive company research, delving into the process, and understanding the values that resonate with consumers This strategic pivot aims to prioritize authenticity and user-centricity, ensuring that the design not only aligns with market expectations but also encapsulates the essence of the company's heritage, processes, and the unique value it offers to consumers. This shift in approach aims for a more informed and resonant design strategy.</p>
-      </div>
-
-      <div className="itiration" style={{textAlign: 'center', fontSize: '24px'}}>
-      <h2>Iteration</h2>
-      <img src={iteration} alt=""/>
-=======
-      <div className="itiration" style={{ textAlign: 'center', fontSize: '24px' }}>
-        <h2>Iteration</h2>
-        <img src={iteration} alt="" />
->>>>>>> 542a5e4eb4db2f99689bfdb4322f88e3b142d512
-      </div>
-
       <div className="changes">
-        <h2>Major changes in the design</h2>
-        <p>There were many changes in the development of the app in the design aspect but here are the three majors ones</p>
-        <div className="changes1">
-          <div className="changesimages">
-            <img src={changes1} alt="" style={{ height: '450px' }} />
-            <video width="215" controls>
+        <h4>Key changes</h4>
+        <h1>The changes in the design throughout the design process</h1>
+        <div className="changesblock">
+       
+          <div className="changes1">
+          <div>
+          <h3>Changes 1</h3>
+          <p>Designing the onboarding page to be visually appealing witheasily accessible options within reach of users' fingertips.</p>
+          </div>
+            <img src={changes1} alt="Change 1" style={{width: '500px', height:'500px'}}/>
+            <video width="250" controls>
               <source src={changesA} type="video/mp4" />
             </video>
           </div>
-          <div className="changes1text" style={{ paddingTop: '100px' }}>
-            <h3>Changes 1</h3>
-            <p>Designing the onboarding page to be visually appealing witheasily accessible options within reach of users' fingertips.</p>
-          </div>
-        </div>
 
-        <div className="changes2">
-          <div className="changes2text" style={{ paddingTop: '100px' }}>
-            <h3>Changes 2</h3>
-            <p>Changed the product display as it gave a more clutter lookfrom the previous design, the product image got largerand better shorter description</p>
-          </div>
-
-          <div className="changesimages">
-            <video width="215" controls>
+          <div className="changes2">
+            <img src={changes2} alt="Change 2" style={{width: '500px', height:'500px'}}/>
+            <video width="250" controls>
               <source src={changesB} type="video/mp4" />
             </video>
-            <img src={changes2} alt="" style={{ height: '450px' }} />
+            <div>
+            <h3>Changes 2</h3>
+            <p>Changed the product display as it gave a more clutter look from the previous design, the product image got larger and better shorter description</p>
+            </div>
           </div>
-        </div>
 
-        <div className="changes3" >
-
-          <div className="changesimages">
-            <img src={changes3} alt="" style={{ height: '450px' }} />
-            <video width="215" controls>
+          <div className="changes3">
+          <div>
+            <h3>Changes 3</h3>
+            <p>Here the changes made were major as the call to action is more easily accessible options within reach of users removed the carousel below and instead changed it to a slider</p>
+            </div>
+            <img src={changes3} alt="Change 3" style={{width: '500px', height:'500px'}}/>
+            <video width="250" controls>
               <source src={changesC} type="video/mp4" />
             </video>
           </div>
-          <div className="changes3text" style={{ paddingTop: '100px' }}>
-            <h3>Changes 3</h3>
-            <p>Here the changes made were major as the call to action ismore easily accessible options within reach of usersremoved the carousel below and instead changed it to a slider</p>
-          </div>
-
         </div>
       </div>
 
-      <div className="finalscreens">
-        <div className="finaltitle">
-          <h2 style={{ margin: '30px 0' }}>Final Screens</h2>
-        </div>
-        <div className="finalimages">
-          <div className="imagescontainer"> 
-            <img src={final1} alt="" />
-            <img src={final2} alt="" />
-            <img src={final3} alt="" />
-            <img src={final4} alt="" />
-          </div>
-        </div>
+      <div className="finalsage">
+      <h4>Final screens</h4>
+        <h3>Outcomes of the final designs of screens</h3>
       </div>
 
-      <div className="lessons">
-        <h4>Lessons Learnt</h4>
-        <h2>What I would do if I could start over</h2>
-        <p>In conclusion, the initial focus on research, user-centric design, and a commitment to continuous learning can significantlyinfluence the success of UI/UX design. Adaptability and responsiveness to user feedback are key for refining the designiteratively and aligning it with both user expectations and the company's values.</p>
-        <ul>
-          <li>Prioritize Research and Values:</li>
-          <p>Begin with comprehensive company research and understandingof product values before delving into design, ensuring authenticity andalignment with brand ethos.</p>
-
-          <li>User-Centric Design:</li>
-          <p>Focus on user-centricity by prioritizing easy access, visual appeal, and a seamless onboarding experience, acknowledging that user satisfaction is paramount.</p>
-
-          <li>Balance Aesthetics and Functionality</li>
-          <p>Striking the right balance between visual appeal and functionalityis crucial. Regularly seek and incorporate user feedback to refine the designiteratively.</p>
-        </ul>
-
+      <div className="finals">
+        <div className="final1">
+          <img src={final1} alt="Final 1" />
+        </div>
+        <div className="final2">
+          <img src={final2} alt="Final 2" />
+        </div>
+        <div className="final3">
+          <img src={final3} alt="Final 3" />
+        </div>
+        <div className="final4">
+          <img src={final4} alt="Final 4" />
+        </div>
       </div>
 
       <div className="end">
-        <h2 className="link">
-          Link to Figma file <a href="https://www.figma.com/design/Mzzo6Y4bWylkhRu2hY5grW/Sage-ecommerce-mobile-application?node-id=183-4549&node-type=canvas&t=bdJjAX27vLYXESlT-0" target="_blank" rel="noopener noreferrer">link</a>
-        </h2>
-      </div>
+  <h2 className="link">
+    Link to Figma file{" "}
+    <a
+      href="https://www.figma.com/design/Mzzo6Y4bWylkhRu2hY5grW/Sage-ecommerce-mobile-application?t=itZoklsVnvgIvCmT-0"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      link
+    </a>
+  </h2>
+</div>
 
-   <div>
+    
+    <div>
     <h2 style={{textAlign: 'center'}}>Thank you!</h2>
     </div>
-
-   <div>
-    <h2 style={{textAlign: 'center'}}>Thank you!</h2>
-    </div>
-
     </div>
   );
 }
