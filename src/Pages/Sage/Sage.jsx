@@ -278,7 +278,7 @@ function Sage() {
           <h3>Changes 1</h3>
           <p>Designing the onboarding page to be visually appealing witheasily accessible options within reach of users' fingertips.</p>
           </div>
-            <img src={changes1} alt="Change 1" style={{width: '500px', height:'500px'}}/>
+            <img src={changes1} alt="Change 1" style={{width: '350px', height:'500px'}}/>
             <video width="250" controls>
               <source src={changesA} type="video/mp4" />
             </video>

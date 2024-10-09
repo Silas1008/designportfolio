@@ -23,20 +23,22 @@ import jaxsplashmp from "./../../Assets/jaxsplash.mp4"
 const Jax = () => {
   return (
     <div className='jax'>
-    <div className="sageheader">
+    <div className="jaxtitle">
     <h1>
-    A case study and app design, <br></br>Jax: Revolutionizing Pet Care Services for India's Pet Owners
+    Jax - Revolutionizing Pet Care Services for India's Pet Owners : A case study
     </h1>
+
+    <div className="jaxbanner">
+    <img src={jaxbanner} alt=""/>
+          <ul>
+            <li>Time frame - 3 Months</li>
+            <li>Kodego - Bootcamp project</li>
+            <li>My role - UI/UX Designer - Frontend</li>
+          </ul>
+        </div>
   </div>
 
-  <div className="jaxbanner">
-  <img src={jaxbanner} alt=""/>
-        <ul>
-          <li>Time frame - 3 Months</li>
-          <li>Kodego - Bootcamp project</li>
-          <li>My role - UI/UX Designer - Frontend</li>
-        </ul>
-      </div>
+ 
 
       <div className="jaxintro">
       <h4>Reader's note</h4>
@@ -58,8 +60,8 @@ const Jax = () => {
       </div>
 
       <div className="finalscreensintro">
-      <h4> final screens</h4>
-      <h2>Run through the final screen before you decide to read</h2>
+      <h4> Final screens</h4>
+      <h1>Run through the final screen before you decide to read</h1>
       </div>
 
       <div className="jaxscreen">
@@ -79,15 +81,15 @@ const Jax = () => {
 
       <div className="prosol">
       <div className="container">
-      <h4>The problem</h4>
-      <h3>Lack of Reliable and Convenient Pet Care Services</h3>
+      <h5 style={{color:'gray'}}>The problem</h5>
+      <h5>Lack of Reliable and Convenient Pet Care Services</h5>
       <p>Pet owners often struggle to find trustworthy and readily available services for dog walking, pet sitting, and vet appointments. This can lead to inconsistent care, last-minute hassles, or even safety concerns.</p>
       </div>
 
       <div className="container">
-      <h4>The Solution</h4>
-      <h3>Solution with Jax</h3>
-      <p>Jax provides a reliable platform where users can easily book verified dog walkers, pet sitters, and vet appointments. The app ensures that all service providers are vetted, and users can view ratings and reviews before making a booking, offering peace of mind.</p>
+      <h5 style={{color:'gray'}}>The Solution</h5>
+      <h5>Solution with Jax</h5>
+      <p>Jax provides a reliable platform where users can easily book verified dog walkers, pet sitters, and vet appointments.</p>
       </div>
       </div>
 
@@ -124,14 +126,14 @@ const Jax = () => {
 
       <div className="prosol">
       <div className="container" style={{backgroundColor: '#FFF1DD'}}>
-      <h4>The problem</h4>
-      <h3>Difficulty in Managing Pet Health and Appointments</h3>
+      <h5 style={{color:'gray'}}>The problem</h5>
+      <h5>Difficulty in Managing Pet Health and Appointments</h5>
       <p>Managing a pet’s health records, vet appointments, and reminders can be cumbersome. Many pet owners forget important vet visits or lose track of their pet's medical history, leading to poor health management.</p>
       </div>
 
       <div className="container" style={{backgroundColor: '#FFF1DD'}}>
-      <h4>The Solution</h4>
-      <h3>Solution with Jax</h3>
+      <h5 style={{color:'gray'}}>The Solution</h5>
+      <h5>Solution with Jax</h5>
       <p>Jax offers a centralized system for storing vet records, scheduling appointments, and receiving timely notifications. This helps pet owners keep track of their pets' health in an organized and efficient way, all through a single app.</p>
       </div>
       </div>
@@ -224,14 +226,14 @@ const Jax = () => {
 
       <div className="prosol">
       <div className="container" style={{backgroundColor: '#C4D5C2'}}>
-      <h4>The problem</h4>
-      <h3>Limited Access to Pet-Friendly Places and Services:</h3>
+      <h5 style={{color:'gray'}}>The problem</h5>
+      <h5>Limited Access to Pet-Friendly Places and Services:</h5>
       <p>Pet owners often face challenges finding pet-friendly cafes, restaurants, or transportation options, especially when traveling or planning outings with their pets. The lack of centralized information makes planning difficult and stressful.</p>
       </div>
 
       <div className="container" style={{backgroundColor: '#C4D5C2'}}>
-      <h4>The Solution</h4>
-      <h3>Solution with Jax</h3>
+      <h5 style={{color:'gray'}}>The Solution</h5>
+      <h5>Solution with Jax</h5>
       <p>Jax provides curated lists of pet-friendly cafes, restaurants, parks, and transport services, all in one place. This feature simplifies the planning process, allowing pet owners to confidently explore pet-friendly options without the guesswork.</p>
       </div>
       </div>
@@ -244,33 +246,27 @@ const Jax = () => {
       <div className="takeaways">
       <h4>Take Aways</h4>
       <h2 style={{textAlign: 'center'}}>Key Takeaways</h2>
-      <div className="jaxkey">
-      <div className="lefttake">
-      <h3>1. Understanding the Target Audience</h3>
+      <div className="jaxkeyup">
+      <div className="container">
+      <h5>1. Understanding the Target Audience</h5>
       <p>Prioritizing convenience, privacy, and trust was essential to meeting the needs of pet owners.
       </p>
-      <h3>2. Designing for Convenience and Accessibility</h3>
+      </div>
+
+      <div className="container">
+      <h5>2. Designing for Convenience and Accessibility</h5>
       <p>The rise of remote work created new challenges for pet care, which Jax addresses with accessible services.
       </p>
-
       </div>
 
-      <div className="righttake">
-      <h3>3. Iterative User Testing and Feedback</h3>
-      <p>Integrating multiple pet care solutions (walking, sitting, vet appointments) into one app enhanced user experience.
-      </p>
-
-      <h3>4. Challenges of Designing for a Niche Market</h3>
-      <p>Jax has the potential to evolve based on changing user needs and the growing demand for pet services.
-      </p>
-      </div>
+      
       </div>
       </div>
 
       <div className="jaxconclusions">
       <h4>Conclusions</h4>
-      <h2>Conclutions</h2>
-      <h3>Jax embodies my vision of making pet care easier for busy pet owners, especially in a remote work world. As the app evolves, the goal is to enhance trust and provide a seamless experience for both pet owners and service providers. Future improvements will focus on adapting to the growing needs of digital pet care.</h3>
+      <h2>My personal Conclutions based on research</h2>
+      <p>Jax embodies my vision of making pet care easier for busy pet owners, especially in a remote work world. As the app evolves, the goal is to enhance trust and provide a seamless experience for both pet owners and service providers. Future improvements will focus on adapting to the growing needs of digital pet care.</p>
       </div>
 
       <div className="end">
