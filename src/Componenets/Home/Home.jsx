@@ -60,20 +60,7 @@ const Home = () => {
                         </div>
                     </div>
 
-                    <div className="project-card" style={{display: 'flex',justifyContent:'center', gap:'110px'
-                    }}>
-                        <div className='image'>
-                            <img src={nicotrol} alt='Nicotrol Project' style={{width:'260px', marginLeft:'115px'}} />
-                        </div>
-                        <div className='intro'>
-                            <h1>Nicotrol</h1>
-                            <h3>Internship</h3>
-                            <p>Redesigning the Nicotrol Website: A Case Study Focused on Enhancing User Experience of the Guide</p>
-                            <Link to="/case-study/nicotrol">
-                                <button className="btn">View Case Study</button>
-                            </Link>
-                        </div>
-                    </div>
+                    
                 </div>
             </section>
 
