@@ -23,9 +23,16 @@ const Home = () => {
                             <h1>Sage E-commerce</h1>
                             <h3>UI/UX / Research / Wireframing</h3>
                             <p>Revitalizing Heritage: A Digital Renaissance for Traditional Makers of Lebanon - A case study</p>
+                            <div className='sagebutton'>
                             <Link to="/case-study/sage">
                                 <button className="btn">View Case Study</button>
                             </Link>
+
+                            <a href="https://sage-case-study.vercel.app/" target="_blank" rel="noopener noreferrer">
+                            <button className="btn">View Moodboard</button>
+                          </a>
+                          
+                            </div>
                         </div>
                     </div>
 
