@@ -4,13 +4,12 @@ import Navbar from "./Componenets/Navbar/Navbar.jsx";
 import Footer from "./Componenets/Footer/Footer.jsx";
 import Home from "./Componenets/Home/Home.jsx";
 import Sage from "./Pages/Sage/Sage.jsx";
-import Nicotrol from "./Pages/Nicotrol/Nicotrol.jsx";
 import CalcMenu from './Pages/CalcMenu/CalcMenu';
-import Jax from "./Pages/Jax/Jax.jsx";
 import About from "./Pages/About/About.jsx";
 import Animations from './Pages/Animations/Animations.jsx';
 import Fordesigners from './Pages/Fordesigners/Fordesigners.jsx';
 import Fordevelopers from './Pages/Fordevelopers/Fordevelopers.jsx';
+import Kosha from './Pages/Kosha/Kosha.jsx';
 
 
 function App() {
@@ -23,9 +22,8 @@ function App() {
                     <Route path="/about" element={<About />} />
                     <Route path="animation" element={<Animations/>}/>
                     <Route path="/case-study/sage" element={<Sage />} />
-                    <Route path="/case-study/nicotrol" element={<Nicotrol />} />
                     <Route path="/case-study/calcmenu" element={<CalcMenu />} />
-                    <Route path="/case-study/jax" element={<Jax />} />
+                    <Route path="kosha" element={<Kosha />}/>
                     <Route path="designers" element={<Fordesigners/>}/>
                     <Route path="developers" element={<Fordevelopers/>}/>
                 </Routes>

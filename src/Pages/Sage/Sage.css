@@ -1,155 +1,299 @@
-.sagetitle h1{
-    margin: 0 350px;
+h1{
+    font-size: 50px;
 }
-h3{
+
+h2{
     font-size: 32px;
 }
 
-.sagetitle{
-    margin: 50px 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 50px;
+.sage {
+    margin: 0 250px;
 }
-.sagetitle ul{
-    display: flex;
-    justify-content: center;
-    gap: 70px;
-    padding: 30px 0;
-    border-top: 2px solid lightgray;
-  border-bottom: 2px solid lightgray;
+.sage h4 {
+    font-size: 20px;
+    font-style: italic;
+    color: gray;
+    border-bottom: 1px solid gray;
+    padding-top: 50px;
+    padding-bottom: 10px; 
+    width: 100%; 
+    text-align: left;
 }
-.about{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 0 240px;
-}
-.mobileapp{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.sage h2{
+    font-size: 28px;
 }
 
-.problemsolution{
+.sage p {
+    font-size: 20px;
+    line-height: 1.6; 
+    color: #333; 
+    width: 100%; 
+    margin: 20px auto; 
+    text-align: justify;
+}
+ .sagebanner{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    margin: 0 240px;
+    text-align: center;
+    gap: 50px;
+    margin: 100px 0;
+ }
+
+ .sagebanner ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    border-top: 1px solid rgb(224, 224, 224);
+    border-bottom: 1px solid rgb(224, 224, 224);
+ }
+
+ .mobileapp {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    text-align: center; 
+    height: 100vh; 
 }
-.problemsolution li{
-    font-weight: 700;
+
+.mobileapp video {
+    max-width: 100%;
+    border-radius: 10px; 
+    padding-top: 50px;
 }
+
 .problemhead{
     text-align: center;
 }
+
 .statement1{
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 200px;
     align-items: center;
-    margin-bottom: 50px;
 }
 .statement2{
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 200px;
     align-items: center;
-    margin-bottom: 50px;
 }
+
 .statement3{
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 200px;
     align-items: center;
-    margin-bottom: 50px;
 }
-.research{
+
+.problemsolution ul {
+    list-style: none; 
+    padding: 0;
+}
+
+.problemsolution li {
+    font-style: italic; 
+    font-size: 18px;
+    font-weight: light;
+    position: relative; 
+    display: inline-block; 
+    margin-top: 10px;
+    margin-bottom: 10px; 
+}
+
+.problemsolution li::after {
+    content: ""; 
+    display: block;
+    width: 100%; 
+    height: 2px; 
+    background-color: black; 
+    margin-top: 4px; 
+}
+
+.problemsolution p {
+    padding-left: 20px; 
+    margin-top: 10px; 
+    font-size: 16px;
+    line-height: 1.6; 
+}
+
+.research {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0 240px;
-}
-.italic{
-    font-size: 30px;
-    font-weight: 200;
     text-align: center;
+    padding: 20px;
 }
-.analysis{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0 240px;
+
+.research img {
+    margin-top: 20px;
+    max-width: 100%;
+    height: auto;
+}
+
+.research .italic {
+    font-size: 28px;
+    font-style: italic;
+    margin-top: 20px;
 }
 .analysisimages{
     display: flex;
     justify-content: center;
     gap: 50px;
-    margin-bottom: 100px;
 }
-.interview{
+
+.interview {
     display: flex;
     flex-direction: column;
-    margin: 100px 240px;  
+    align-items: center;
+    margin: 100px auto; 
+    padding: 20px;
 }
-.interview li{
-    margin: 20px 0;
+
+.interview ul {
+    list-style-type: none;
+    padding: 0;
 }
-.major{
-    margin: 0 250px;
+
+.interview li {
+    font-style: italic;
+    font-size: 20px;
+    padding: 10px 0;
+    margin: 10px 0;
 }
-.major h1{
-    text-align: center;
+
+.interview img {
+    margin-top: 20px;
+    max-width: 100%;
+    height: auto;
 }
 .insights{
     display: flex;
-    margin: 100px 250px;
-   justify-content: center;
 }
-.insights img{
-    width: 300px;
+.insights p{
+    font-size: 16px;
 }
-.changes{
-    display: flex;
-    flex-direction: column;
-    margin: 0 240px;
-}
-.changes1{
-    display: flex;
-    align-items: center;
-    gap: 50px;
-    margin: 100px 0;
-}
-.changes2{
-    display: flex;
-    align-items: center;
-    gap: 50px;
-    margin: 100px 0;
-}
-.changes3{
-    display: flex;
-    align-items: center;
-    gap: 50px;
-    margin: 100px 0;
-}
-.finalsage{
-    margin: 50px 240px;
-    display: flex;
-    flex-direction: column;
-}
-.finals{
+.major {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .insights {
     display: flex;
     justify-content: center;
-    gap: 50px;
-    margin: 10px 240px;
-}
-.finals img{
+    gap: 2rem;
+    flex-wrap: wrap;
+    padding: 0 50px;
+  }
+  
+  .insight-card {
+    text-align: center;
+    max-width: 350px;
+    padding: 1rem;
+  }
+  
+  .insight-card img {
     width: 250px;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+  
+
+.changes h1{
+    text-align: center;
 }
-.end{
+.finalsage h1{
+    text-align: center;
+}
+.changes1 {
     display: flex;
-    font-size: 30px;
-    justify-content: center;
-    margin: 150px 0;
+    align-items: center; 
+    gap: 50px; 
+    justify-content: center; 
+    margin: 50px 0;
 }
+
+.changes1 img {
+    width: 350px;  
+    height: 500px; 
+    object-fit: cover; 
+    border-radius: 10px; 
+}
+
+.changes1 video {
+    width: 250px; 
+    height: auto; 
+}
+
+.changes2 {
+    display: flex;
+    align-items: center; 
+    gap: 50px; 
+    justify-content: center; 
+    margin: 50px 0;
+}
+
+.changes2 img {
+    width: 350px;  
+    height: 500px; 
+    object-fit: cover; 
+    border-radius: 10px; 
+}
+
+.changes2 video {
+    width: 250px; 
+    height: auto; 
+}
+
+.changes3 {
+    display: flex;
+    align-items: center; 
+    gap: 50px; 
+    justify-content: center; 
+    margin: 50px 0;
+}
+
+.changes3 img {
+    width: 350px;  
+    height: 500px; 
+    object-fit: cover; 
+    border-radius: 10px; 
+}
+
+.changes3 video {
+    width: 250px; 
+    height: auto; 
+}
+
+.finalsage{
+    margin: 50px 0;
+}
+.finalsage h1{
+    margin: 50px 0;
+}
+
+.finals {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .final-item {
+    flex: 1; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .final-item img {
+    width: 80%; 
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .end{
+    text-align: center;
+    margin: 100px;
+  }
+  
+  

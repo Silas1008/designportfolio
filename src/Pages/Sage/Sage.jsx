@@ -1,4 +1,5 @@
 import "./Sage.css";
+import "./../../App.css"
 import sagebanner from "./../../Assets/sagebanner.png";
 import statement1 from "./../../Assets/statement1image.png";
 import statement2 from "./../../Assets/statement2image.png";
@@ -27,57 +28,49 @@ import full from "./../../Assets/fullintro.mp4";
 function Sage() {
   return (
     <div className="sage">
-      <div className="sagetitle">
-        <div className="sageheader">
-          <h1>
-            Revitalizing Heritage: A Digital Renaissance for Traditional Makers
-            of Lebanon - A case study
-          </h1>
-        </div>
-
+  
         <div className="sagebanner">
+        <h1>
+        Revitalizing Heritage: A Digital Renaissance for <br></br>Traditional Makers
+        of Lebanon - A case study
+      </h1>
         <img src={sagebanner} alt="Sagebanner" />
         <ul>
           <li>Time frame - 3 months</li>
           <li>Company - Wonita Inc.</li>
           <li>My role - UI/UX Designer</li>
         </ul>
-      </div>
-      </div>
 
-      
-
-      <div className="about">
-        <h4>About Sage</h4>
         <p>
-          Sage is an <b>e-commerce platform</b> that replicates a project I
-          worked on <b>during my employment with an ongoing company</b>. Due to
-          privacy and the current development stage of that company,{" "}
-          <b>Sage serves as a showcase of my contributions</b> without revealing
-          sensitive information. Through Sage, I aim to{" "}
-          <b>demonstrate the design and development</b> solutions I implemented,
-          including UX/UI strategies, product architecture, and overall platform
-          functionality.
-        </p>
-
-        <div className="problem">
-        <h3>
-          Absence from digital platforms and e-commerce, missing out on a vast
-          consumer base that increasingly relies on online shopping.
-        </h3>
-        <p>
-          <b>Declining sales</b> and market share due to the lack of digital
-          presence. Limited access to the global market.{" "}
-          <b>Difficulty in attracting</b> a new generation of employees.{" "}
-          <b>
-            Inability to keep pace with modern manufacturing technologies
-          </b>{" "}
-          and automation used by global competitors.
-        </p>
-      </div>
-      </div>
-
+        Sage is an <b>e-commerce platform</b> that replicates a project I worked on  
+        <b> during my employment with an ongoing company</b>. Due to privacy concerns 
+        and the current development stage of that company, <b>Sage serves as a showcase 
+        of my contributions</b> without revealing sensitive information.  
       
+        Through Sage, I aim to <b>demonstrate the design and development</b> solutions 
+        I implemented, including UX/UI strategies, product architecture, and overall 
+        platform functionality.
+      </p>
+      </div>
+
+
+      <div className="problem">
+      <h4>Problem</h4>
+      <h2>
+        Absence from digital platforms and e-commerce, missing out on a vast
+        consumer base that increasingly relies on online shopping.
+      </h2>
+      <p>
+        <b>Declining sales</b> and market share due to the lack of digital
+        presence. Limited access to the global market.{" "}
+        <b>Difficulty in attracting</b> a new generation of employees.{" "}
+        <b>
+          Inability to keep pace with modern manufacturing technologies
+        </b>{" "}
+        and automation used by global competitors.
+      </p>
+    </div>
+  
 
       <div className="mobileapp">
         <h2>If you’re in a hurry, here you go!</h2>
@@ -88,8 +81,8 @@ function Sage() {
 
       <div className="problemsolution">
         <div className="problemhead">
-          <h4 style={{ textAlign: "left" }}>Problem</h4>
-          <h3>The importance of this platform</h3>
+          <h4>The Why</h4>
+          <h2>The importance of this platform</h2>
         </div>
 
         <div className="statement1">
@@ -166,6 +159,7 @@ function Sage() {
       </div>
 
       <div className="research">
+      <h4>Findings</h4>
   <h1>
     A 30% surge in sales, 40% global recognition boost, 50% brand
     visibility increase, 25% growth in community engagement
@@ -194,6 +188,7 @@ function Sage() {
 
 
       <div className="analysis">
+      <h4>Analysing competition</h4>
         <h3>The competition focuses more on quantity than quality</h3>
         <p>
           The competition often prioritizes marketing over product quality,
@@ -211,33 +206,28 @@ function Sage() {
 
       <div className="interview">
         <h4>Consumer interviews</h4>
-        <h3>
-          Interview success is seen in aligned values, passion for tradition,
-          interest in niche, sustainability awareness, and potential for brand
-          advocacy.
-        </h3>
         <p>
           <b>Interview questions</b>
         </p>
         <ul>
           <li>
-            What attracts you to our traditional processes of the business, and
+            1. What attracts you to our traditional processes of the business, and
             how does it align with your values and preferences?
           </li>
           <li>
-            Can you share your understanding of the traditional process and the
+            2. Can you share your understanding of the traditional process and the
             significance of natural ingredients in beauty products?
           </li>
           <li>
-            How do you envision contributing to or engaging with our community
+            3. How do you envision contributing to or engaging with our community
             events and initiatives?
           </li>
           <li>
-            What aspects of sustainability in product manufacturing are
+            4. What aspects of sustainability in product manufacturing are
             important to you, and how does this influence your product choices?
           </li>
           <li>
-            In what ways do you appreciate personalized shopping experiences,
+            5. In what ways do you appreciate personalized shopping experiences,
             and how does this influence your decision to choose certain beauty
             products?
           </li>
@@ -247,45 +237,50 @@ function Sage() {
 
       <div className="major">
       <h4>Major insights</h4>
-        <h1>What are the major insights?</h1>
+      <h1>What are the major insights?</h1>
+    </div>
+    
+    <div className="insights">
+      <div className="insight-card alignment">
+        <img src={alignment} alt="Consumer Alignment" />
+        <h4>65% valued brand authenticity and transparency.</h4>
+        <p>The interviews reveal a consistent alignment between interviewees' values and the brand's ethos. This suggests a successful communication of the brand's unique values and an appeal to individuals who resonate with authenticity, tradition, and sustainability.</p>
       </div>
-
-      <div className="insights">
-        <div className="alignment" style={{ padding: "0 50px", textAlign: "center" }}>
-          <img src={alignment} alt="Consumer Alignment" />
-          <h4>65% valued brand authenticity and transparency.</h4>
-          <p>The interviews reveal a consistent alignment between interviewees' values and the brand's ethos. This suggests a successful communication of the brand's unique values and an appeal to individuals who resonate with authenticity, tradition, and sustainability.</p>
-        </div>
-        <div className="appreciation" style={{ padding: "0 50px", textAlign: "center" }}>
-          <img src={appreciation} alt="Consumer Appreciation" />
-          <h4>40% identified personalized shopping as a driver for loyalty.</h4>
-          <p>The appreciation for personalized shopping experiences and interest in niche products underscore a market preference for unique, customized offerings. This insight suggests a potential competitive advantage in a market dominated by mass-market platforms that may lack this level of personalization and specificity.</p>
-        </div>
-        <div className="community" style={{ padding: "0 50px", textAlign: "center" }}>
-          <img src={community} alt="Community" />
-          <h4>70% valued sustainability, influencing purchase choices.</h4>
-          <p>Interview responses indicate a potential for robust community engagement. Individuals express an interest in contributing to and participating in community events and initiatives. This insight suggests an opportunity to build a vibrant community around the brand.</p>
-        </div>
+      <div className="insight-card appreciation">
+        <img src={appreciation} alt="Consumer Appreciation" />
+        <h4>40% identified personalized shopping as a driver for loyalty.</h4>
+        <p>The appreciation for personalized shopping experiences and interest in niche products underscore a market preference for unique, customized offerings. This insight suggests a potential competitive advantage in a market dominated by mass-market platforms that may lack this level of personalization and specificity.</p>
       </div>
+      <div className="insight-card community">
+        <img src={community} alt="Community" />
+        <h4>70% valued sustainability, influencing purchase choices.</h4>
+        <p>Interview responses indicate a potential for robust community engagement. Individuals express an interest in contributing to and participating in community events and initiatives. This insight suggests an opportunity to build a vibrant community around the brand.</p>
+      </div>
+    </div>
+    
 
       <div className="changes">
         <h4>Key changes</h4>
         <h1>The changes in the design throughout the design process</h1>
         <div className="changesblock">
        
-          <div className="changes1">
-          <div>
+        <div className="changes1">
+        <div>
           <h3>Changes 1</h3>
-          <p>Designing the onboarding page to be visually appealing witheasily accessible options within reach of users' fingertips.</p>
-          </div>
-            <img src={changes1} alt="Change 1" style={{width: '350px', height:'500px'}}/>
-            <video width="250" controls>
-              <source src={changesA} type="video/mp4" />
-            </video>
-          </div>
+          <p>
+            Designing the onboarding page to be visually appealing with easily 
+            accessible options within reach of users' fingertips.
+          </p>
+        </div>
+        <img src={changes1} alt="Change 1" />
+        <video controls>
+          <source src={changesA} type="video/mp4" />
+        </video>
+      </div>
+      
 
           <div className="changes2">
-            <img src={changes2} alt="Change 2" style={{width: '500px', height:'500px'}}/>
+            <img src={changes2} alt="Change 2"/>
             <video width="250" controls>
               <source src={changesB} type="video/mp4" />
             </video>
@@ -300,7 +295,7 @@ function Sage() {
             <h3>Changes 3</h3>
             <p>Here the changes made were major as the call to action is more easily accessible options within reach of users removed the carousel below and instead changed it to a slider</p>
             </div>
-            <img src={changes3} alt="Change 3" style={{width: '500px', height:'500px'}}/>
+            <img src={changes3} alt="Change 3"/>
             <video width="250" controls>
               <source src={changesC} type="video/mp4" />
             </video>
@@ -310,23 +305,24 @@ function Sage() {
 
       <div className="finalsage">
       <h4>Final screens</h4>
-        <h3>Outcomes of the final designs of screens</h3>
+        <h1>Outcomes of the final designs of screens</h1>
       </div>
 
       <div className="finals">
-        <div className="final1">
-          <img src={final1} alt="Final 1" />
-        </div>
-        <div className="final2">
-          <img src={final2} alt="Final 2" />
-        </div>
-        <div className="final3">
-          <img src={final3} alt="Final 3" />
-        </div>
-        <div className="final4">
-          <img src={final4} alt="Final 4" />
-        </div>
+      <div className="final-item">
+        <img src={final1} alt="Final 1" />
       </div>
+      <div className="final-item">
+        <img src={final2} alt="Final 2" />
+      </div>
+      <div className="final-item">
+        <img src={final3} alt="Final 3" />
+      </div>
+      <div className="final-item">
+        <img src={final4} alt="Final 4" />
+      </div>
+    </div>
+    
 
       <div className="end">
   <h2 className="link">

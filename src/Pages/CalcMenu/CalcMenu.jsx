@@ -18,12 +18,13 @@ const CalcMenu = () => {
     <div className="calcmenu">
       <div className="calctitle">
         <div className="calcheader">
-          <h1>
-          Improving the first time user experience  <br></br>tabs in the recipe section for CalcMenu - A Case study
-          </h1>
+          
         </div>
 
         <div className="calcbanner">
+        <h1>
+          Improving the first time user experience  <br></br>tabs in the recipe section for CalcMenu - Redesign
+          </h1>
       <img src={calcbanner} alt="calcbanner"/>
       <ul>
         <li>Time frame - 2 weeks</li>
@@ -74,24 +75,26 @@ const CalcMenu = () => {
     <h4>Design problem</h4>
     <h2>What the layout looked like.</h2>
     <p>So the design problem was that users were unable to update the ingredients in the allergens section, which was a hassle for a lot of users. There were ingredients that were tagged as traces, and users wanted to change them.</p>
-    <img src={designproblem} alt="" style={{width: '1000px', padding:'50px 50px 50px 50px', backgroundColor: 'gray'}}/>
+    <img src={designproblem} alt="" style={{width: '90%', padding:'50px 50px 50px 50px', backgroundColor: 'gray'}}/>
     </div>
 
     <div className="designsolutions">
     <h4>Design Solutions</h4>
     <h2>Design Solutions</h2>
     <p>So the design problem was that users were unable to update the ingredients in the allergens section, which was a hassle for a lot of users. There were ingredients that were tagged as traces, and users wanted to change them.</p>
-    <img src={designsolutions} alt="" style={{width: '1000px', padding:'50px 50px 50px 50px', backgroundColor: '#F3EFD5'}}/>
+    <img src={designsolutions} alt="" style={{width: '90%', padding:'50px 50px 50px 50px', backgroundColor: '#F3EFD5'}}/>
     </div>
+
+
     <div className="solutions">
     <h4>Solutions</h4>
     <h2>Solution 1 Adding action buttons</h2>
-    <img src={open} alt="" style={{width: '1000px', padding:'50px 50px 50px 50px', backgroundColor: '#F3EFD5'}}/>
+    <img src={open} alt="" style={{width: '90%', padding:'50px 50px 50px 50px', backgroundColor: '#F3EFD5'}}/>
     </div>
     <div className="approvable">
     <h2>Solution 2 Adding action buttons</h2>
     <p>Buttons grayed out indicating the users have approved of the changes thay have made this is a reversable action</p>
-    <img src={slide} alt="" style={{width: '1000px', padding:'50px 50px 50px 50px', backgroundColor: '#F3EFD5'}}/>
+    <img src={slide} alt="" style={{width: '90%', padding:'50px 50px 50px 50px', backgroundColor: '#F3EFD5'}}/>
     </div>
 
     <div className="importanceof">
@@ -104,10 +107,12 @@ const CalcMenu = () => {
     <li>Effect on Menu Transparency</li>
     </ul>
     </div>
+
+    <h4>Why the change</h4>
     <div className="understanding">
     <h2>Understanding the change</h2>
     <p>With <b>more than 100 users</b> and <b>multinational users accessing Calcmenu on a daily basis</b>, it needs to perform in a user-friendly manner to ensure it is easy to use for everyone. In the older design, we had a collapsible section with a default two-column layout instead of three. Although the middle column was used to update the ingredients, we designed it so users could still view the contents and traces in the third column.</p>
-    <div className="giffy" style={{width: '1000px', padding:'50px 50px 50px 50px', backgroundColor: '#F3EFD5'}}>
+    <div className="giffy" style={{width: '90%', padding:'50px 50px 50px 50px', backgroundColor: '#F3EFD5'}}>
     <video width="1000" controls>
     <source src={giffy} type="video/mp4"/>
     </video>
@@ -117,12 +122,13 @@ const CalcMenu = () => {
     <h2>What are the other changes and why?</h2>
    <div className="middle">
    <div className="left">
-   <p>We also decided to add an icon that indicates the data is not yet complete. This icon serves as a visual cue for users, helping them easily identify sections that require additional input or validation before proceeding. By integrating this feature, we aim to enhance user experience by reducing confusion and guiding users through the completion process</p>
+   <p>We included an icon to indicate incomplete data, serving as a clear visual cue that helps users quickly identify sections needing additional input. This improves clarity, reduces confusion, and guides users through the completion process.</p>
    <img src={left} alt=""/>
    </div>
 
    <div className="right">
-   <p>And since many users have access to other accessible recipes, any changes they make would be recorded in the activity column. This feature not only helps users keep track of their modifications but also fosters a collaborative environment where users can view each other's contributions and enhancements. By documenting these changes, we aim to promote transparency and encourage users to engage more with the platform, ultimately leading to a richer community experience.</p>
+   
+   <p>Any modifications to accessible recipes are recorded in the activity column, allowing users to track changes, foster collaboration, and engage more actively with the community.</p>
    <img src={right} alt=""/>
    </div>
    </div>
@@ -143,65 +149,65 @@ const CalcMenu = () => {
 
     <div className="up">
     <div className="container" style={{ backgroundColor: '#C5EAFB', padding:'15px'}}>
-    <h4>Button Accessibility</h4>
+    <h5>Button Accessibility</h5>
     <p>Clients and users requested that the update buttons be easily accessible, positioned either directly under or next to the allergens in the mobile view. This requirement added complexity to the design.</p>
     </div>
 
     <div className="container" style={{ backgroundColor: '#FAE6D8' ,padding:'15px' }}>
-    <h4>Spacing and Alignment</h4>
+    <h5>Spacing and Alignment</h5>
     <p>Proper spacing and alignment of buttons in the mobile view had to be maintained. The design needed to ensure that buttons did not overlap or become misaligned, which required careful consideration of layout adjustments.</p>
     </div>
     </div>
 
     <div className="down">
     <div className="container" style={{ backgroundColor: '#B8B0D8' ,padding:'15px' }}>
-    <h4>Consistency with Desktop View</h4>
+    <h5>Consistency with Desktop View</h5>
     <p>The mobile design had to be consistent with the desktop view in terms of functionality and user experience. This involved translating a layout that worked well on larger screens to a more compact mobile interface.</p>
     
     </div>
 
     <div className="container" style={{ backgroundColor: '#88A4D6',padding:'15px'  }}>
-    <h4>Usability Across Devices</h4>
+    <h5>Usability Across Devices</h5>
     <p>The solution needed to be user-friendly across different mobile devices and screen sizes, ensuring that the buttons were easily accessible and usable for all users.</p>
     </div>
     </div>
     </div>
+
+
     <div className="mobilescreens">
     <video width="280" controls>
     <source src={mobilechallenges} type="video/mp4"/>
     </video>
-    </div>
-    </div>
 
-    <div className="mobilechallenges">
-    <div className="mobilescreens">
-    <video width="280" controls>
+    <video width="290" controls>
     <source src={mobilerecordings} type="video/mp4"/>
     </video>
     </div>
+
+
     <div className="whole">
     <h2>Mobile design solutions</h2>
     <div className="up">
     <div className="container" style={{ backgroundColor: '#C5EAFB' ,padding:'15px' }}>
-    <h4>Optimized Button Placement</h4>
+    <h5>Optimized Button Placement</h5>
     <p>To address accessibility, we positioned the update buttons directly under or next to the allergens. This placement was designed to ensure that users could easily find and interact with the buttons on mobile devices.</p>
     </div>
 
     <div className="container" style={{ backgroundColor: '#FAE6D8',padding:'15px'  }}>
-    <h4>Responsive Layout Adjustments</h4>
-    <p>We made responsive adjustments to the layout to maintain proper spacing and alignment. This included using flexible grid systems and media queries to adapt the design to different screen sizes while keeping the interface clean and organized.</p>
+    <h5>Responsive Layout Adjustments</h5>
+    <p>We optimized the layout with responsive adjustments, using flexible grids and media queries to maintain spacing, alignment, and a clean interface across all screen sizes.</p>
     </div>
     </div>
 
     <div className="down">
     <div className="container" style={{ backgroundColor: '#B8B0D8' ,padding:'15px' }}>
-    <h4>Consistent User Experience</h4>
+    <h5>Consistent User Experience</h5>
     <p>We ensured that the mobile design mirrored the desktop view’s functionality and aesthetics. By maintaining consistent design elements and interactions, users experienced a seamless transition between devices.</p>
     
     </div>
 
     <div className="container" style={{ backgroundColor: '#88A4D6' ,padding:'15px' }}>
-    <h4>Cross-Device Usability Testing</h4>
+    <h5>Cross-Device Usability Testing</h5>
     <p>We conducted extensive testing across various mobile devices and screen sizes to verify that the design was functional and user-friendly. This testing helped identify and resolve any issues with button accessibility and usability.</p>
     </div>
     </div>
@@ -233,11 +239,11 @@ const CalcMenu = () => {
 </div>
 
 <div className="conclusions">
-<h2 style={{textAlign:'center'}}>Conclusions</h2>
+<h2>Conclusions</h2>
 <p>The redesign successfully addressed the challenges of optimizing the mobile view for allergen updates. By positioning the update buttons directly under or next to the allergens, we ensured ease of access for users. The touch-friendly design and responsive layout adjustments improved usability across different devices, maintaining a consistent experience with the desktop view. Through comprehensive cross-device usability testing, we confirmed that the redesigned interface is both functional and user-friendly, meeting the needs of a diverse user base and enhancing overall efficiency in managing recipe updates.</p>
 </div>
 
-<div>
+<div className="end">
     <h2 style={{textAlign: 'center'}}>Thank you!</h2>
     </div>
     </div>

@@ -1,9 +1,8 @@
 import React from 'react';
 import './Home.css';
 import sagefront from './../../Assets/sagefront.png';
+import koshahome from './../../Assets/Koshahome.png';
 import calcfront from './../../Assets/CalcMenu.png';
-import jax from './../../Assets/jax.png';
-import nicotrol from './../../Assets/nicotrol.png';
 import Animations from '../../Pages/Animations/Animations';
 import { Link } from 'react-router-dom';
 
@@ -12,9 +11,7 @@ const Home = () => {
         <div className="home">
             <header className="home-header">
                 <h1>Athiza Mei Romero</h1>
-                <p>
-                    I am a UI/UX designer who is curious about animations and enjoys the minimalistic designs that remain in this world.
-                </p>
+                <p>UX Designer & Researcher dedicated to creating thoughtful, user-centered experiences through innovation and data-driven insights.</p>
             </header>
             <section className="home-projects">
                 <div className="project-cards">
@@ -34,13 +31,14 @@ const Home = () => {
 
                     <div className="project-card">
                         <div className='image'>
-                            <img src={calcfront} alt='CalcMenu Project' />
+                            <img src={koshahome} alt='Kosha project' />
                         </div>
                         <div className='intro'>
-                            <h1>CalcMenu</h1>
-                            <h3>UI/UX / Research / Wireframing</h3>
-                            <p>Improving the first-time user experience in the recipe section for CalcMenu - A case study</p>
-                            <Link to="/case-study/calcmenu">
+                            <h1>Kosha - by Ajio</h1>
+                            <h3>UI/UX / Research / Redesign
+                            </h3>
+                            <p>This project is mere a proposal for adding a Feature to the existing Ajio app</p>
+                            <Link to="/kosha">
                                 <button className="btn">View Case Study</button>
                             </Link>
                         </div>
@@ -48,13 +46,13 @@ const Home = () => {
 
                     <div className="project-card">
                         <div className='image'>
-                            <img src={jax} alt='Jax Project' style={{marginRight:'140px'}}/>
+                            <img src={calcfront} alt='CalcMenu Project' />
                         </div>
                         <div className='intro'>
-                            <h1>Jax Online Services</h1>
+                            <h1>CalcMenu</h1>
                             <h3>UI/UX / Research / Wireframing</h3>
-                            <p>Jax: Redefining Pet Care Services in India with User-Centric Design - A case study</p>
-                            <Link to="/case-study/jax">
+                            <p>Improving the first-time user experience in the recipe section for CalcMenu - Redesign</p>
+                            <Link to="/case-study/calcmenu">
                                 <button className="btn">View Case Study</button>
                             </Link>
                         </div>

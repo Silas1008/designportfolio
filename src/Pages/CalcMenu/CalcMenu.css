@@ -1,165 +1,156 @@
-p{
-    font-size: 18px;
-}
-    li{
-        font-weight: 300;
-        font-size: 18px;
-    }
-h4{
-    color: gray;
-    border-bottom: 1px solid lightgray;
-    padding-bottom: 20px;
-}
-.calctitle{
-    margin: 50px 0;
+.calcmenu {
+    margin: 0 250px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    gap: 50px;
-}
-.calctitle ul{
-    display: flex;
-    justify-content: center;
-    gap: 70px;
-    padding: 30px 0;
-    border-top: 2px solid lightgray;
-  border-bottom: 2px solid lightgray;
-}
-.calcintro{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 0 240px;
-}
-.calctarget{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 0 240px;
-}
-.calcsteps{
-    display: flex;
-    justify-content: center;
-}
-.designproblem{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 100px 240px;
-}
-.designsolutions{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 100px 240px;
-}
-.solutions{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 100px 240px;
-}
-.approvable{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 100px 240px;
-}
-.importanceof{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 50px 240px;
-}
-.understanding{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 50px 240px;
-}
-.explaination{
-    margin-top: 100px;
 }
 
-.left{
-    display: flex;
-    justify-content: center;
-    gap: 50px;
-    margin: 50px 0;
-    padding: 20px;
-    background-color: #F6F5DC;
+.calcmenu p {
+    font-size: 20px;
+    line-height: 1.6; 
+    color: #333; 
+    width: 100%; 
+    margin: 20px auto; 
+    text-align: justify;
 }
-.right{
-    display: flex;
-    justify-content: center;
-    gap: 50px;
-    margin: 50px 0;
-    padding: 20px;
-    background-color: #F6F5DC;
+
+.calcmenu h4 {
+    font-size: 20px;
+    font-style: italic;
+    color: gray;
+    border-bottom: 1px solid gray;
+    padding-top: 50px;
+    padding-bottom: 10px; 
+    width: 100%; 
+    text-align: left;
 }
-.challenges{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 50px 240px;
-}
-.mobilechallenges{
-    display: flex;
-    justify-content: center;
-    gap: 50px;
-    align-items: center;
-    margin: 50px 240px;
+
+.calcbanner h1{
     text-align: center;
 }
-.mobilechallenges h2{
-    margin: 50px;
-    font-size: 30px;
+
+.calcbanner img {
+        border-radius: 20px;
+}
+.calcbanner ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    align-items: start;
+    border-top: 1px solid rgb(224, 224, 224);
+    border-bottom: 1px solid rgb(224, 224, 224);
+ }
+ 
+ .calcsteps{
+    display: flex;
+    justify-content: center;
+ }
+
+ .solutions,
+ .approvable,
+ .understanding, .whole, .conclusions{
+     margin: 50px 0;
+     text-align: center;
+ }
+ 
+ 
+ .explaination{
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background: #F1E5FF;
+    padding: 50px;
+ }
+
+ .takeaways {
+   margin: 10px 0;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   text-align: center;
+   background: #ffffff; 
+   border-radius: 10px; 
+   box-shadow: 0px 4px 10px #777777; 
+   padding: 50px;
 }
 
-.up{
-    display: flex;
-    justify-content: center;
-    gap: 50px;
-    margin-bottom: 20px;
-}
-.down{
-    display: flex;
-    justify-content: center;
-    gap: 50px;
-    margin-bottom: 20px;
-}
-.takeaways{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 0 240px;
-}
 .key{
+    margin: 50px 0;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     gap: 50px;
+    text-align: center;
+    padding: 50px;
+}
+
+
+.leftimage, .rightimage{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   gap: 50px;
+   align-items: center;
+   padding-bottom: 50px;
+   }
+
+ .middle{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+ }
+ .left, .right{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ gap: 50px;
+ align-items: center;
+ padding-bottom: 50px;
+ }
+
+ .right img{
+    width: 350px;
+ }
+ .left img{
+    width: 450px;
+ }
+
+ .up{
+   
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    text-align: center;
+ }
+
+ .down{
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    text-align: center;
+ }
+
+ .mobilechallenges{
+   text-align: center;
+ }
+
+ .mobilescreens{
     margin: 100px 0;
-}
-.conclusions{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 100px 240px;
-}
-.lefttake{
     display: flex;
     justify-content: center;
     gap: 50px;
-    align-items: center;
-    padding: 20px;
-    background-color: beige;
-}
-.righttake{
-    display: flex;
-    justify-content: center;
-    gap: 50px;
-    align-items: center;
-    padding: 20px;
-    background-color: beige;
-}
+ }
+
+ .whole p{
+   font-size: 18px;
+ }
+
+ .whole h5{
+   font-size: 18px;
+ }
+ 
